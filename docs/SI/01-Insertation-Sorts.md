@@ -93,26 +93,34 @@ When the temp value (7) is compared with element 0 (23), it is smaller so 23 is 
  
 	This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
 	
-	for i in range(1, len(arr)):
+	__for i in range(1, len(arr)):__
+ 
 	This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
 	
-	current_number = arr[i]
+	__current_number = arr[i]__
+ 
 	Here, we store the value of the current item in the list (the one we want to sort into the right place) in a variable called current_number.
 	
-	j = i - 1
+	__j = i - 1__
+ 
 	We set j to be the index of the item right before current_number. This helps us compare the current_number to the items that are already sorted.
 	
-	while j >= 0 and arr[j] > current_number:
+	__while j >= 0 and arr[j] > current_number:__
+ 
 	This line starts a loop. It checks if j is still within the list (not less than 0) and if the item at j is bigger than current_number. If both are true, we move the item at j one position to the right. This loop makes space for current_number to be in the right spot.
 	
-	arr[j + 1] = arr[j]
+	__arr[j + 1] = arr[j]__
+ 
 	Inside the while loop, this line shifts the number at position j one step to the right (to position j + 1), making room for current_number to move into the correct position.
 	
-	j -= 1
+	__j -= 1__
+ 
 	We move j one step to the left to check the next item in the sorted portion of the list. This repeats until current_number finds the correct position.
 	
-	arr[j + 1] = current_number
+	__arr[j + 1] = current_number__
+ 
 	Once we’ve found the correct spot for current_number, we place it there.
 	
-	return arr
+	__return arr__
+ 
 	This line gives back the sorted list after we’ve finished the sorting.
