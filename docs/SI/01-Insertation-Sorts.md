@@ -41,6 +41,10 @@ Each value, to the left of the element (__where the temp value was originally st
 
 When either of the above is true, the temp value is copied back into the list at the previous position.
 
+<figure markdown="span">
+  ![img 4](../Images/Insertation-Sort-4.png){ width="800" }
+</figure>
+
 ### Insertion Sort - Iteration 2
 
 The next value (__99__) is copied into the temp.
