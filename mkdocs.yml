@@ -1,6 +1,6 @@
 site_name: Advanced Higher Computing Science
 nav:
-    - Home: 'docs/index.md'
+    - Home: 'index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
     - Unit 2 - Software Implementation:
