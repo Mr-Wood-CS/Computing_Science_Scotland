@@ -1,11 +1,11 @@
-site_name: Advanced Higher Computing Science
+asite_name: Advanced Higher Computing Science
 nav:
     - Home: 'index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
     - Unit 2 - Software Implementation:
       - SI/index.md
-      - Insertion Sorts: 'SI/01-Sub-Program Procedures.md'
+      - Insertion Sorts: 'SI/01-Insertation-Sorts.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
