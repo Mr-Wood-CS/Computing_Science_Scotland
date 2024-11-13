@@ -29,7 +29,7 @@ Start with element 1 of the list to be sorted.  __This value is temporarily stor
 If the temp value is smaller than the value before it (element 0), then the value before it, is copied to the right (element 1).
 
 <figure markdown="span">
-  ![img 2](../Images/Insertation-Sort-22.png){ width="800" }
+  ![img 3](../Images/Insertation-Sort-3.png){ width="800" }
 </figure>
 
 
