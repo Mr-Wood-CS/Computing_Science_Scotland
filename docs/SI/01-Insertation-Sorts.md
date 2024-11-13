@@ -22,11 +22,15 @@ Consider the following  array
 
 Start with element 1 of the list to be sorted.  __This value is temporarily stored__.
 
-
+<figure markdown="span">
+  ![img 2](../Images/Insertation-Sort-2.png){ width="800" }
+</figure>
 
 If the temp value is smaller than the value before it (element 0), then the value before it, is copied to the right (element 1).
 
-
+<figure markdown="span">
+  ![img 2](../Images/Insertation-Sort-22.png){ width="800" }
+</figure>
 
 
 Each value, to the left of the element (__where the temp value was originally stored__) is compared until :
