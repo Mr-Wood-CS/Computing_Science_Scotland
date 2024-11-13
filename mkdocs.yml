@@ -9,7 +9,7 @@ nav:
       - Software Implementation: 'SDD/04-Software-Implementation.md'
     - Unit 2 - Software Implementation:
       - SI/index.md
-      - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
+      - Insertion Sorts: 'SI/01-Sub-Program Procedures.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
