@@ -1,12 +1,8 @@
 site_name: Advanced Higher Computing Science
 nav:
-    - Home: './docs/index.md'
+    - Home: '../docs/index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
-      - Development Methodologies: 'SDD/01-Development-Methodologies.md'
-      - Analysis: 'SDD/02-Analysis.md'
-      - Design: 'SDD/03-Design.md'
-      - Software Implementation: 'SDD/04-Software-Implementation.md'
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Insertion Sorts: 'SI/01-Sub-Program Procedures.md'
