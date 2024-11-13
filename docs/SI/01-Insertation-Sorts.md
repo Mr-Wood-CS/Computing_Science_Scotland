@@ -119,7 +119,8 @@ When the temp value (7) is compared with element 0 (23), it is smaller so 23 is 
 
 === "Explanation"
 
-	def insertion_sort(arr):
+	__def insertion_sort(arr):__
+ 
 	This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
 	
 	for i in range(1, len(arr)):
