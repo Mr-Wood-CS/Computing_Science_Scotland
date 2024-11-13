@@ -60,26 +60,26 @@ When the temp value (7) is compared with element 2 (99) , it is smaller so 99 is
 When the temp value (7) is compared with element 0 (23), it is smaller so 23 is copied into element 1
 
 !!! example
-	```Python
+	```Python lineNums ="1"
  
 		def insertion_sort(arr):
-		# Go through each item in the list, starting from the second one
-		for i in range(1, len(arr)):
-			# Store the current number in a temporary variable
-			current_number = arr[i]
-			# Set j to be one position before i
-			j = i - 1
-		
-			# Move numbers in the sorted part of the list to the right
-			# until we find the right place for the current number
-			while j >= 0 and arr[j] > current_number:
-			arr[j + 1] = arr[j]
-			j -= 1
-		
-			# Place the current number in its correct position
-			arr[j + 1] = current_number
+			# Go through each item in the list, starting from the second one
+			for i in range(1, len(arr)):
+				# Store the current number in a temporary variable
+				current_number = arr[i]
+				# Set j to be one position before i
+				j = i - 1
+			
+				# Move numbers in the sorted part of the list to the right
+				# until we find the right place for the current number
+				while j >= 0 and arr[j] > current_number:
+				arr[j + 1] = arr[j]
+				j -= 1
+			
+				# Place the current number in its correct position
+				arr[j + 1] = current_number
    
-		return arr
+			return arr
 		
 		# Example list
 		numbers = [7, 2, 5, 3, 4]
