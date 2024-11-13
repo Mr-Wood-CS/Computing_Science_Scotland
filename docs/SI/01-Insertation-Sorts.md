@@ -1,4 +1,4 @@
-# Insertation Sorts
+# Insertion Sorts
 
 !!! info "What you need to Know"
 
