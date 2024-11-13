@@ -2,9 +2,9 @@
 
 !!! info "What you need to Know"
 
-	: Describe, exemplify, and implement insertation sorts
-
- 	: Read and explain code that uses constructs appropriate to this level.
+	Describe, exemplify, and implement insertation sorts
+	
+	Read and explain code that uses constructs appropriate to this level.
 
 ## Explanantion
 
