@@ -89,9 +89,9 @@ When the temp value (7) is compared with element 0 (23), it is smaller so 23 is 
 
 	```
  === "Python"
-
-    ``` python linenums="1"
  
+	``` python linenums="1"
+	
 		def insertion_sort(arr):
 			# Go through each item in the list, starting from the second one
 			for i in range(1, len(arr)):
@@ -108,15 +108,14 @@ When the temp value (7) is compared with element 0 (23), it is smaller so 23 is 
 			
 				# Place the current number in its correct position
 				arr[j + 1] = current_number
-	
+		
 			return arr
 		
 		# Example list
 		numbers = [7, 2, 5, 3, 4]
 		print("Before sorting:", numbers)
 		print("After sorting:", insertion_sort(numbers))
-
-    ```
+	```
 
 === "Explanation"
 
