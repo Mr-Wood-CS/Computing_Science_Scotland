@@ -60,7 +60,7 @@ When the temp value (7) is compared with element 2 (99) , it is smaller so 99 is
 When the temp value (7) is compared with element 0 (23), it is smaller so 23 is copied into element 1
 
 !!! example
-	```Python lineNums ="1"
+	```Python numLines ="1"
  
 		def insertion_sort(arr):
 			# Go through each item in the list, starting from the second one
