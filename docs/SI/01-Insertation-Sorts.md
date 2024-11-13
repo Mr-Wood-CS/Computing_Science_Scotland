@@ -1,4 +1,4 @@
-# Insertation Sorts
+# Insertion Sort
 
 !!! info "What you need to Know"
 
@@ -15,7 +15,7 @@ Each element is compared to the elements before in turn, working backwards down 
 Consider the following  array
 
 <figure markdown="span">
-  ![img 1](../Images/Insertation-Sort-1.png){ width="800" }
+  ![img 1](../Images/Insertation-Sort-1.png){ width="650" }
 </figure>
 
 ### Insertion Sort - Iteration 1
@@ -23,23 +23,27 @@ Consider the following  array
 Start with element 1 of the list to be sorted.  __This value is temporarily stored__.
 
 <figure markdown="span">
-  ![img 2](../Images/Insertation-Sort-2.png){ width="800" }
+  ![img 2](../Images/Insertation-Sort-2.png){ width="650" }
 </figure>
 
 If the temp value is smaller than the value before it (element 0), then the value before it, is copied to the right (element 1).
 
 <figure markdown="span">
-  ![img 3](../Images/Insertation-Sort-3.png){ width="800" }
+  ![img 3](../Images/Insertation-Sort-3.png){ width="650" }
 </figure>
 
 
 Each value, to the left of the element (__where the temp value was originally stored__) is compared until :
 
-	* The value being compared is smaller that the stored temp value or 
+* The value being compared is smaller that the stored temp value or 
  
- 	* the start of the list has been reached
+* the start of the list has been reached
 
 When either of the above is true, the temp value is copied back into the list at the previous position.
+
+<figure markdown="span">
+  ![img 4](../Images/Insertation-Sort-4.png){ width="800" }
+</figure>
 
 ### Insertion Sort - Iteration 2
 
@@ -55,36 +59,70 @@ When the temp value (7) is compared with element 2 (99) , it is smaller so 99 is
 
 When the temp value (7) is compared with element 0 (23), it is smaller so 23 is copied into element 1
 
+## Insertion Sort Example
 
+=== "Python"
 
+    ``` python linenums="1"
+		def insertion_sort(arr):
+			# Go through each item in the list, starting from the second one
+			for i in range(1, len(arr)):
+				# Store the current number in a temporary variable
+				current_number = arr[i]
+				# Set j to be one position before i
+				j = i - 1
+			
+				# Move numbers in the sorted part of the list to the right
+				# until we find the right place for the current number
+				while j >= 0 and arr[j] > current_number:
+				arr[j + 1] = arr[j]
+				j -= 1
+			
+				# Place the current number in its correct position
+				arr[j + 1] = current_number
+   
+			return arr
+		
+		# Example list
+		numbers = [7, 2, 5, 3, 4]
+		print("Before sorting:", numbers)
+		print("After sorting:", insertion_sort(numbers))
+    ```
 
+=== "Explanation"
 
-
-Modularity means that when a program is written it is split up into smaller chunks called sub-programs. Imagine a program with millions of lines of. This would be split up into different programming teams to complete. 
-
-Each of the sub-programs does a specific job. For example one sub-program may be to get user information. Each of the subprograms can be used in any order and can be reused multiple times. 
-
-!!! example
-	```Python
+	__def insertion_sort(arr):__
+ 
+	This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
 	
-	```
-
-## Procedures in Python
-
-### What is a procedure? 
-We'll use an analogy here. Let's imagine that you're a dishwasher. Your process of washing a dish could be:
-
-- Dip the dish into the water
-- Cover every inch of the dish with soap 
-- Rinse and dry the dish
-
-So, every time you need to wash a dish, you do just that. Dip, soap, dry. Dip, soap, dry. Dip, soap, dry. Even when you go home, you dip, soap, dry. Dip, soap, dry. It's the same sequence, repeated over and over again. 
-
-A procedure works the same way. People replace the process of dipping, soaping, and drying with the command "wash the dishes". When you call a procedure, it simply does the jobs that the procedure is supposed to do. 
-
-By replacing a stack of instructions with one single statement, it makes code easier to read and debug. A procedure does not return a value.
-
-In Python we give a procedure a name, this is done by giving them a name after the, “def” instruction. The brackets after the procedure name are used to pass in data that will be used in that block of code. This is known as parameter passing. 
-
-!!! info
-	A procedure literally just executes commands.
+	__for i in range(1, len(arr)):__
+ 
+	This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
+	
+	__current_number = arr[i]__
+ 
+	Here, we store the value of the current item in the list (the one we want to sort into the right place) in a variable called current_number.
+	
+	__j = i - 1__
+ 
+	We set j to be the index of the item right before current_number. This helps us compare the current_number to the items that are already sorted.
+	
+	__while j >= 0 and arr[j] > current_number:__
+ 
+	This line starts a loop. It checks if j is still within the list (not less than 0) and if the item at j is bigger than current_number. If both are true, we move the item at j one position to the right. This loop makes space for current_number to be in the right spot.
+	
+	__arr[j + 1] = arr[j]__
+ 
+	Inside the while loop, this line shifts the number at position j one step to the right (to position j + 1), making room for current_number to move into the correct position.
+	
+	__j -= 1__
+ 
+	We move j one step to the left to check the next item in the sorted portion of the list. This repeats until current_number finds the correct position.
+	
+	__arr[j + 1] = current_number__
+ 
+	Once we’ve found the correct spot for current_number, we place it there.
+	
+	__return arr__
+ 
+	This line gives back the sorted list after we’ve finished the sorting.
