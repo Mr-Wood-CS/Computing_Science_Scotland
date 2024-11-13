@@ -15,7 +15,7 @@ Each element is compared to the elements before in turn, working backwards down 
 Consider the following  array
 
 <figure markdown="span">
-  ![img 1](../Images/Insertation-Sort-1.png){ width="650" }
+  ![img 1](../Images/Insertation-Sort-1.png){ width="800" }
 </figure>
 
 ### Insertion Sort - Iteration 1
