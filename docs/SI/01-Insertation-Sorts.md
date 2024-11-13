@@ -88,3 +88,61 @@ When the temp value (7) is compared with element 0 (23), it is smaller so 23 is 
 		print("After sorting:", insertion_sort(numbers))
 
 	```
+ === "Python"
+
+    ``` python linenums="1"
+ 
+		def insertion_sort(arr):
+			# Go through each item in the list, starting from the second one
+			for i in range(1, len(arr)):
+				# Store the current number in a temporary variable
+				current_number = arr[i]
+				# Set j to be one position before i
+				j = i - 1
+			
+				# Move numbers in the sorted part of the list to the right
+				# until we find the right place for the current number
+				while j >= 0 and arr[j] > current_number:
+				arr[j + 1] = arr[j]
+				j -= 1
+			
+				# Place the current number in its correct position
+				arr[j + 1] = current_number
+	
+			return arr
+		
+		# Example list
+		numbers = [7, 2, 5, 3, 4]
+		print("Before sorting:", numbers)
+		print("After sorting:", insertion_sort(numbers))
+
+    ```
+
+=== "Explanation"
+
+	def insertion_sort(arr):
+	This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
+	
+	for i in range(1, len(arr)):
+	This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
+	
+	current_number = arr[i]
+	Here, we store the value of the current item in the list (the one we want to sort into the right place) in a variable called current_number.
+	
+	j = i - 1
+	We set j to be the index of the item right before current_number. This helps us compare the current_number to the items that are already sorted.
+	
+	while j >= 0 and arr[j] > current_number:
+	This line starts a loop. It checks if j is still within the list (not less than 0) and if the item at j is bigger than current_number. If both are true, we move the item at j one position to the right. This loop makes space for current_number to be in the right spot.
+	
+	arr[j + 1] = arr[j]
+	Inside the while loop, this line shifts the number at position j one step to the right (to position j + 1), making room for current_number to move into the correct position.
+	
+	j -= 1
+	We move j one step to the left to check the next item in the sorted portion of the list. This repeats until current_number finds the correct position.
+	
+	arr[j + 1] = current_number
+	Once we’ve found the correct spot for current_number, we place it there.
+	
+	return arr
+	This line gives back the sorted list after we’ve finished the sorting.
