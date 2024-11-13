@@ -1,4 +1,4 @@
-# Insertion Sorts
+# Insertion Sort
 
 !!! info "What you need to Know"
 
@@ -35,9 +35,9 @@ If the temp value is smaller than the value before it (element 0), then the valu
 
 Each value, to the left of the element (__where the temp value was originally stored__) is compared until :
 
-	* The value being compared is smaller that the stored temp value or 
+* The value being compared is smaller that the stored temp value or 
  
- 	* the start of the list has been reached
+* the start of the list has been reached
 
 When either of the above is true, the temp value is copied back into the list at the previous position.
 
@@ -58,6 +58,8 @@ The next value (7) is copied into the temp.
 When the temp value (7) is compared with element 2 (99) , it is smaller so 99 is copied into element 3
 
 When the temp value (7) is compared with element 0 (23), it is smaller so 23 is copied into element 1
+
+## Insertion Sort Example
 
 === "Python"
 
