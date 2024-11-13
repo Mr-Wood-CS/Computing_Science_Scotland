@@ -59,10 +59,9 @@ When the temp value (7) is compared with element 2 (99) , it is smaller so 99 is
 
 When the temp value (7) is compared with element 0 (23), it is smaller so 23 is copied into element 1
 
-!!! example
+=== "Python"
 
-	```python linenums="1"
- 
+    ``` python linenums="1"
 		def insertion_sort(arr):
 			# Go through each item in the list, starting from the second one
 			for i in range(1, len(arr)):
@@ -86,36 +85,7 @@ When the temp value (7) is compared with element 0 (23), it is smaller so 23 is 
 		numbers = [7, 2, 5, 3, 4]
 		print("Before sorting:", numbers)
 		print("After sorting:", insertion_sort(numbers))
-
-	```
- === "Python"
- 
-	``` python linenums="1"
-	
-		def insertion_sort(arr):
-			# Go through each item in the list, starting from the second one
-			for i in range(1, len(arr)):
-				# Store the current number in a temporary variable
-				current_number = arr[i]
-				# Set j to be one position before i
-				j = i - 1
-			
-				# Move numbers in the sorted part of the list to the right
-				# until we find the right place for the current number
-				while j >= 0 and arr[j] > current_number:
-				arr[j + 1] = arr[j]
-				j -= 1
-			
-				# Place the current number in its correct position
-				arr[j + 1] = current_number
-		
-			return arr
-		
-		# Example list
-		numbers = [7, 2, 5, 3, 4]
-		print("Before sorting:", numbers)
-		print("After sorting:", insertion_sort(numbers))
-	```
+    ```
 
 === "Explanation"
 
@@ -146,19 +116,3 @@ When the temp value (7) is compared with element 0 (23), it is smaller so 23 is 
 	
 	return arr
 	This line gives back the sorted list after we’ve finished the sorting.
-
-=== "Python"
-
-    ``` python linenums="1"
-	from dataclasses import dataclass
-	
-	@dataclass
-    ```
-
-=== "Explanation"
-
-	__Line 1 - from dataclasses import Dataclass__
-	This line is like getting a special helper from a toolbox. It brings in something called dataclass, which makes it easier to create a class that stores information.
-	
-	__Line 3 - @dataclass__
-	This is a special tag that tells Python, "I want to make the next class a dataclass." This means Python will automatically help us with things like creating the class and keeping track of data inside it.
