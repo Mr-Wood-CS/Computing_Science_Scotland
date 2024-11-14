@@ -51,6 +51,10 @@ The next value (__99__) is copied into the temp.
 
 When the next value (__99__) is examined, the value before it (__45__) is smaller, __so no further action is required__
 
+<figure markdown="span">
+  ![img 5](../Images/Insertion-Sort/Insertion-Sort-5.png){ width="800" }
+</figure>
+
 ### Insertion Sort - Iteration 3
 
 The next value (7) is copied into the temp.
