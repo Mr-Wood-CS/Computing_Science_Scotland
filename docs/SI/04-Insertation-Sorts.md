@@ -67,13 +67,17 @@ The next value (7) is copied into the temp.
   ![img 7](../Images/Insertion-Sort/Insertion-Sort-7.png){ width="800" }
 </figure>
 
-When the temp value (7) is compared with element 2 (99) , it is smaller so 99 is copied into element 3
+When the temp value (7) is compared with element 2 (__99__) , it is smaller so __99__ is copied into __element 3__
 
 <figure markdown="span">
   ![img 8](../Images/Insertion-Sort/Insertion-Sort-8.png){ width="800" }
 </figure>
 
-When the temp value (7) is compared with element 0 (23), it is smaller so 23 is copied into element 1
+When the temp value (7) is compared with element 1 (__45__), it is smaller so 45 is copied into element 2
+
+
+
+
 
 ## Insertion Sort Example
 
