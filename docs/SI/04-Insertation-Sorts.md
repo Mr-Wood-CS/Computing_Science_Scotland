@@ -49,10 +49,14 @@ When either of the above is true, the temp value is copied back into the list at
 
 The next value (__99__) is copied into the temp.
 
+<figure markdown="span">
+  ![img 5](../Images/Insertion-Sort/Insertion-Sort-5.png){ width="800" }
+</figure>
+
 When the next value (__99__) is examined, the value before it (__45__) is smaller, __so no further action is required__
 
 <figure markdown="span">
-  ![img 5](../Images/Insertion-Sort/Insertion-Sort-5.png){ width="800" }
+  ![img 6](../Images/Insertion-Sort/Insertion-Sort-6.png){ width="800" }
 </figure>
 
 ### Insertion Sort - Iteration 3
