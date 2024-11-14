@@ -63,7 +63,15 @@ When the next value (__99__) is examined, the value before it (__45__) is smalle
 
 The next value (7) is copied into the temp.
 
+<figure markdown="span">
+  ![img 7](../Images/Insertion-Sort/Insertion-Sort-7.png){ width="800" }
+</figure>
+
 When the temp value (7) is compared with element 2 (99) , it is smaller so 99 is copied into element 3
+
+<figure markdown="span">
+  ![img 8](../Images/Insertion-Sort/Insertion-Sort-8.png){ width="800" }
+</figure>
 
 When the temp value (7) is compared with element 0 (23), it is smaller so 23 is copied into element 1
 
