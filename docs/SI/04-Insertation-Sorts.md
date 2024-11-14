@@ -15,7 +15,7 @@ Each element is compared to the elements before in turn, working backwards down 
 Consider the following  array
 
 <figure markdown="span">
-  ![img 1](../Images/Insertation-Sort-1.png){ width="800" }
+  ![img 1](../Images/Insertion-Sort/Insertion-Sort-1.png){ width="800" }
 </figure>
 
 ### Insertion Sort - Iteration 1
@@ -23,13 +23,13 @@ Consider the following  array
 Start with element 1 of the list to be sorted.  __This value is temporarily stored__.
 
 <figure markdown="span">
-  ![img 2](../Images/Insertation-Sort-2.png){ width="800" }
+  ![img 2](../Images/Insertion-Sort/Insertion-Sort-2.png){ width="800" }
 </figure>
 
 If the temp value is smaller than the value before it (element 0), then the value before it, is copied to the right (element 1).
 
 <figure markdown="span">
-  ![img 3](../Images/Insertation-Sort-3.png){ width="800" }
+  ![img 3](../Images/Insertion-Sort/Insertion-Sort-3.png){ width="800" }
 </figure>
 
 
@@ -42,7 +42,7 @@ Each value, to the left of the element (__where the temp value was originally st
 When either of the above is true, the temp value is copied back into the list at the previous position.
 
 <figure markdown="span">
-  ![img 4](../Images/Insertation-Sort-4.png){ width="800" }
+  ![img 4](../Images/Insertion-Sort/Insertion-Sort-4.png){ width="800" }
 </figure>
 
 ### Insertion Sort - Iteration 2
