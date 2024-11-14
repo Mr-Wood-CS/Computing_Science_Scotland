@@ -5,7 +5,10 @@ nav:
       - SDD/index.md
     - Unit 2 - Software Implementation:
       - SI/index.md
-      - Insertion Sorts: 'SI/01-Insertation-Sorts.md' 
+      - Parallel Arrays: 'SI/01-Parallel-1D-Arrays.md' 
+      - Working with Records: 'SI/02-Working-with-Records.md' 
+      - Arrays of Records: 'SI/03-Arrays-of-Records.md' 
+      - Insertion Sort: 'SI/04-Insertation-Sorts.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
