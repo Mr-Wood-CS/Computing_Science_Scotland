@@ -190,7 +190,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
          ``` python
      	     j >= 0
-        ```
+         ```
 	
 	2. Does this player have a smaller score than the current player? 
 	
