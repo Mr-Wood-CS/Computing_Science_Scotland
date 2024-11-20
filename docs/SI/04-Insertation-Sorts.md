@@ -171,7 +171,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
 === "Explanation"
  
-	Line 1 - This is the list of numbers we want to sort from smallest to biggest. It’s like a pile of toys that you want to arrange in order by size.
+	Line 1 - This is the list of numbers we want to sort from smallest to biggest. 
 
  	Line 3 - This line tells the computer to look at the list one number at a time, starting from the second number (at position 1, because lists start at position 0). 
 
