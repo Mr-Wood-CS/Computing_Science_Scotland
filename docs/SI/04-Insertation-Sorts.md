@@ -152,21 +152,22 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 === "Python"
 
     ``` python linenums="1"
-	numbers = [23,78,32,1,36,97,53]
+	high_scores = [ ["Meena", "58"],["Joe", "50"],["Patrick", "27"],["Marta", "25"],["Andrew", "23"]]
 	
-	for i in range(1,len(numbers)):
+	for i in range(1, len(high_scores)):
+	    key = high_scores[i]
+	    j = i - 1
 	
-	    temp = numbers[i] 
 	
-	    j = i - 1 
+	while j >= 0 and int(high_scores[j][1]) < int(key[1]):
+	    high_scores[j + 1] = high_scores[j]
+	    j -= 1
+	    high_scores[j + 1] = key
 	
-	    while j >= 0 and numbers[j] > temp:
-	
-	        numbers[j + 1] = numbers[j]
-	
-	        j -= 1
-	
-	        numbers[j + 1] = temp)
+	print(f"After pass {i}:")
+	 
+	print("Sorted High Scores:")
+	print(high_scores)
     ```
 
 === "Explanation"
