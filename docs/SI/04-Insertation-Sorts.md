@@ -186,12 +186,16 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
 	Line 8 - This line is __very important__ as it checks two things:
 	
-	1. Is there a player before the current one? (j >= 0)
+	1. Is there a player before the current one?
+
+         ``` python
+     	     j >= 0
+        ```
 	
 	2. Does this player have a smaller score than the current player? 
 	
         ``` python
-     	 (high_scores[j][1] < key[1])
+     	    high_scores[j][1] < key[1]
         ```
     
 	If both answers are yes, it means the current player should be placed before the one we’re looking at. 
