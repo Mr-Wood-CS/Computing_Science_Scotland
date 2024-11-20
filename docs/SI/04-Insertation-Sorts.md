@@ -180,11 +180,11 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
    	Line 7 - The computer looks at the number that is before the one we are holding.
 
-        Line 8 - This line is super important! It checks two things:
-
-		* Is there a player before the current one? (j >= 0)
-	 
-		* Does this player have a smaller score than the current player? (high_scores[j][1] < key[1])
+	Line 8 - This line is super important! It checks two things-
+	
+	* Is there a player before the current one? (j >= 0)
+	
+	* Does this player have a smaller score than the current player? (high_scores[j][1] < key[1])
  
 	__If both answers are yes, it means the current player should be placed before the one we’re looking at. (We convert scores to numbers with int() because they are written as strings.)__
 
