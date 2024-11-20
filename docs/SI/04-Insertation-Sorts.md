@@ -178,7 +178,8 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
   	`Line 5`
    
-   	: Here, the computer stores the number we’re currently looking at. __Remember, we start at 1__.
+   	: Here, the computer stores the number we’re currently looking at. 
+    	  __Remember, we start at 1__.
 
    	Line 7 - The computer looks at the number that is before the one we are holding.
 
@@ -187,8 +188,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 	1. Is there a player before the current one? (j >= 0)
 	
 	2. Does this player have a smaller score than the current player? 
-	
- 	(high_scores[j][1] < key[1])
+	(high_scores[j][1] < key[1])
  
 	If both answers are yes, it means the current player should be placed before the one we’re looking at. 
 
