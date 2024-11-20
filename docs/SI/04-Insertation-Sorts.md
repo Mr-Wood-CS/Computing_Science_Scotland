@@ -180,7 +180,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
    	Line 7 - The computer looks at the number that is before the one we are holding.
 
-	Line 8 - This line is __very important__ as it checks two things-
+	Line 8 - This line is __very important__ as it checks two things:
 	
 	* Is there a player before the current one? (j >= 0)
 	
