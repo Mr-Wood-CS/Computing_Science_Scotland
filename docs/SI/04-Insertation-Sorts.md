@@ -79,7 +79,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
 
 
-## Insertion Sort Example
+## Insertion Sort (1D Arrays)
 
 === "Python"
 
@@ -147,7 +147,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
  
 	This line gives back the sorted list after we’ve finished the sorting.
 
-## Insertation SOrt (2D Arrays)
+## Insertation Sort (2D Arrays)
 
 === "Python"
 
