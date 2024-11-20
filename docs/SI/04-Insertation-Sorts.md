@@ -146,3 +146,82 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 	__return arr__
  
 	This line gives back the sorted list after we’ve finished the sorting.
+
+## Insertation SOrt (2D Arrays)
+
+=== "Python"
+
+    ``` python linenums="1"
+	numbers = [23,78,32,1,36,97,53]
+	
+	for i in range(1,len(numbers)):
+	
+	    temp = numbers[i] 
+	
+	    j = i - 1 
+	
+	    while j >= 0 and numbers[j] > temp:
+	
+	        numbers[j + 1] = numbers[j]
+	
+	        j -= 1
+	
+	        numbers[j + 1] = temp)
+    ```
+
+=== "Explanation"
+ 
+	Line 1 - This is the list of numbers we want to sort from smallest to biggest. It’s like a pile of toys that you want to arrange in order by size.
+
+ 	Line 3 - This line tells the computer to look at the list one number at a time, starting from the second number (at position 1, because lists start at position 0). 
+
+  	Line 5 - Here, the computer stores the number we’re currently looking at. __Remember, we start at 1__.
+
+   	Line 7 - The computer looks at the number that is before the one we are holding
+
+    	Line 9 - This line checks two things:
+	
+ 	* Is there still a number before the current one? (j >= 0)
+
+   	and
+    
+	* Is the number before the current one bigger than the current toy? (numbers[j] > temp)
+
+	If both answers are yes, it means the current toy doesn’t belong where it is, and we need to move the bigger toy to the right to make space.
+
+ 	Line 11 - This moves the bigger number to the right.
+
+  	Line 13 - The computer now looks at the next number to the left.
+ 
+ 	Line 13 - Finally, The computer, when we find the right place for our current number, we put it there.
+ 
+ 
+	This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
+	
+	__current_number = arr[i]__
+ 
+	Here, we store the value of the current item in the list (the one we want to sort into the right place) in a variable called current_number.
+	
+	__j = i - 1__
+ 
+	We set j to be the index of the item right before current_number. This helps us compare the current_number to the items that are already sorted.
+	
+	__while j >= 0 and arr[j] > current_number:__
+ 
+	This line starts a loop. It checks if j is still within the list (not less than 0) and if the item at j is bigger than current_number. If both are true, we move the item at j one position to the right. This loop makes space for current_number to be in the right spot.
+	
+	__arr[j + 1] = arr[j]__
+ 
+	Inside the while loop, this line shifts the number at position j one step to the right (to position j + 1), making room for current_number to move into the correct position.
+	
+	__j -= 1__
+ 
+	We move j one step to the left to check the next item in the sorted portion of the list. This repeats until current_number finds the correct position.
+	
+	__arr[j + 1] = current_number__
+ 
+	Once we’ve found the correct spot for current_number, we place it there.
+	
+	__return arr__
+ 
+	This line gives back the sorted list after we’ve finished the sorting.
