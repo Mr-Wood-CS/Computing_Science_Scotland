@@ -172,9 +172,13 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
 === "Explanation"
  
-	Line 1 - This is the list of numbers we want to sort from smallest to biggest. 
+	`Line 1` 
+ 
+ 	: This is the list of numbers we want to sort from smallest to biggest. 
 
- 	Line 3 - This line tells the computer to look at the list one number at a time, starting from the second number (at position 1, because lists start at position 0). 
+ 	`Line 3`
+  
+  	: This line tells the computer to look at the list one number at a time, starting from the second number (at position 1, because lists start at position 0). 
 
   	`Line 5`
    
@@ -182,9 +186,13 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
     	  
           __Remember, we start at position 1__.
 
-   	Line 7 - The computer looks at the number that is before the one we are holding.
+   	`Line 7`
+    
+    	: The computer looks at the number that is before the one we are holding.
 
-	Line 8 - This line is __very important__ as it checks two things:
+	`Line 8`
+ 
+ 	: This line is __very important__ as it checks two things:
 	
 	1. Is there a player before the current one?
 
@@ -200,11 +208,17 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
     
 	If both answers are yes, it means the current player should be placed before the one we’re looking at. 
 
- 	Line 11 - This moves the bigger number to the right.
+ 	`Line 11`
+  	
+   	: This moves the bigger number to the right.
 
-  	Line 13 - The computer now looks at the next number to the left.
+  	`Line 13`
+   
+   	: The computer now looks at the next number to the left.
  
- 	Line 13 - Finally, The computer, when we find the right place for our current number, we put it there.
+ 	`Line 13`
+  	
+   	: Finally, The computer, when we find the right place for our current number, we put it there.
  
  
 
