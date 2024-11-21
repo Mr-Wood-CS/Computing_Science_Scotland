@@ -101,7 +101,8 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 			arr[j + 1] = current_number
    
    	print("Sorted Numbers:")
-	print(numbers)
+	
+ print(numbers)
  
     ```
 
@@ -150,15 +151,21 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 	average_temps = [ ["January", "8"],["February", "2"],["March", "22"],["April", "16"],["May", "28"]]
 	
 	for i in range(1, len(average_temps)):
+ 
 	    key = average_temps[i]
+     
 	    j = i - 1
 	
 		while j >= 0 and int(average_temps[j][1]) < int(key[1]):
+  
 		    average_temps[j + 1] = average_tempss[j]
+      
 		    j -= 1
+      
 		    average_temps[j + 1] = key
 	 
 	print("Sorted Average Temps:")
+ 
 	print(average_temps)
     ```
 
