@@ -85,7 +85,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
     ``` python linenums="1"
 	def insertion_sort(arr):
-		# Go through each item in the list, starting from the second one
+		
 		for i in range(1, len(arr)):
 			# Store the current number in a temporary variable
 			current_number = arr[i]
@@ -111,11 +111,10 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
 === "Explanation"
 
-	__def insertion_sort(arr):__
- 
-	This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
+	`Line 1`
+	: This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
 	
-	__for i in range(1, len(arr)):__
+	`Line 3`
  
 	This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
 	
