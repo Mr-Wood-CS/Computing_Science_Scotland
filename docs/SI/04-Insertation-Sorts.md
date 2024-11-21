@@ -75,10 +75,6 @@ When the temp value (7) is compared with element 2 (__99__) , it is smaller so _
 
 When the temp value (7) is compared with element 1 (__45__), it is smaller so 45 is copied into element 2
 
-
-
-
-
 ## Insertion Sort (1D Arrays)
 
 === "Python"
@@ -86,23 +82,23 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
     ``` python linenums="1"
     numbers = [7, 2, 5, 3, 4]
 
-	for i in range(1, len(arr)):
+    for i in range(1, len(arr)):
 		
-		current_number = arr[i]
+	current_number = arr[i]
 		
-		j = i - 1
+	j = i - 1
 	
-		while j >= 0 and arr[j] > current_number:
+	while j >= 0 and arr[j] > current_number:
   
-			arr[j + 1] = arr[j]
+		arr[j + 1] = arr[j]
    
-			j -= 1
+		j -= 1
 
-			arr[j + 1] = current_number
+		arr[j + 1] = current_number
    
-   	print("Sorted Numbers:")
+    print("Sorted Numbers:")
 	
-        print(numbers)
+    print(numbers)
  
     ```
 
