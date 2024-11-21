@@ -193,13 +193,13 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 	1. Is there a temp before the current one?
 
          ``` python
-     	     j >= 0
+     	     while j >= 0
          ```
 	
 	2. Is this temp smaller than the current temp? 
 	
         ``` python
-     	    int(average_temps[j][1] < key[1]):
+     	    and int(average_temps[j][1] < key[1]):
         ```
     
 	: If both answers are yes, it means the current player should be placed before the one we’re looking at. 
