@@ -185,7 +185,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 
    	`Line 5`
     
-    	: The computer looks at the temp. that is before the one we are holding.
+    	: The computer looks at the temp that is before the one we are holding.
 
 	`Line 7`
  
