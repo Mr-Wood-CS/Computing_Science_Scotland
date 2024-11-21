@@ -162,47 +162,45 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 		    average_temps[j + 1] = average_tempss[j]
 		    j -= 1
 		    average_temps[j + 1] = key
-		
-		print(f"After pass {i}:")
 	 
-	print("Sorted High Scores:")
-	print(high_scores)
+	print("Sorted Average Temps:")
+	print(average_temps)
     ```
 
 === "Explanation"
  
 	`Line 1` 
  
- 	: This is the list of numbers we want to sort from smallest to biggest. 
+ 	: This is the list of temps we want to sort from smallest to biggest. 
 
  	`Line 3`
   
   	: This line tells the computer to look at the list one number at a time, starting from the second number (at position 1, because lists start at position 0). 
 
-  	`Line 5`
+  	`Line 4`
    
-   	: Here, the computer stores the number we’re currently looking at. 
+   	: Here, the computer stores the temp. we’re currently looking at. 
     	  
           __Remember, we start at position 1__.
 
-   	`Line 7`
+   	`Line 5`
     
-    	: The computer looks at the number that is before the one we are holding.
+    	: The computer looks at the temp. that is before the one we are holding.
 
-	`Line 8`
+	`Line 7`
  
  	: This line is __very important__ as it checks two things:
 	
-	1. Is there a player before the current one?
+	: 1. Is there a temp before the current one?
 
          ``` python
      	     j >= 0
          ```
 	
-	2. Does this player have a smaller score than the current player? 
+	: 2. Is this temp smaller than the current temp? 
 	
         ``` python
-     	    high_scores[j][1] < key[1]
+     	    int(average_temps[j][1] < key[1]):
         ```
     
 	: If both answers are yes, it means the current player should be placed before the one we’re looking at. 
