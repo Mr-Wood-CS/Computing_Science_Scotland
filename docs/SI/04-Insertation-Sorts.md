@@ -206,7 +206,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
      	    high_scores[j][1] < key[1]
         ```
     
-	If both answers are yes, it means the current player should be placed before the one we’re looking at. 
+	: If both answers are yes, it means the current player should be placed before the one we’re looking at. 
 
  	`Line 11`
   	
