@@ -75,49 +75,41 @@ When the temp value (7) is compared with element 2 (__99__) , it is smaller so _
 
 When the temp value (7) is compared with element 1 (__45__), it is smaller so 45 is copied into element 2
 
-
-
-
-
-## Insertion Sort Example
+## Insertion Sort (1D Arrays)
 
 === "Python"
 
     ``` python linenums="1"
-		def insertion_sort(arr):
-			# Go through each item in the list, starting from the second one
-			for i in range(1, len(arr)):
-				# Store the current number in a temporary variable
-				current_number = arr[i]
-				# Set j to be one position before i
-				j = i - 1
-			
-				# Move numbers in the sorted part of the list to the right
-				# until we find the right place for the current number
-				while j >= 0 and arr[j] > current_number:
-				arr[j + 1] = arr[j]
-				j -= 1
-			
-				# Place the current number in its correct position
-				arr[j + 1] = current_number
-   
-			return arr
+    numbers = [7, 2, 5, 3, 4]
+
+    for i in range(1, len(arr)):
 		
-		# Example list
-		numbers = [7, 2, 5, 3, 4]
-		print("Before sorting:", numbers)
-		print("After sorting:", insertion_sort(numbers))
+	current_number = arr[i]
+		
+	j = i - 1
+	
+	while j >= 0 and arr[j] > current_number:
+  
+		arr[j + 1] = arr[j]
+   
+		j -= 1
+
+		arr[j + 1] = current_number
+   
+    print("Sorted Numbers:")
+	
+    print(numbers)
+ 
     ```
 
 === "Explanation"
 
-	__def insertion_sort(arr):__
- 
-	This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
+	`Line 1`
+	: This line starts the definition of a function called insertion_sort that takes one argument, arr, which will be a list of numbers we want to sort.
 	
-	__for i in range(1, len(arr)):__
+	`Line 3`
  
-	This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
+	: This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
 	
 	__current_number = arr[i]__
  
@@ -146,3 +138,83 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 	__return arr__
  
 	This line gives back the sorted list after we’ve finished the sorting.
+
+## Insertation Sort (2D Arrays)
+
+=== "Python"
+
+    ``` python linenums="1"
+	average_temps = [ ["January", "8"],["February", "2"],["March", "22"],["April", "16"],["May", "28"]]
+	
+	for i in range(1, len(average_temps)):
+ 
+	    key = average_temps[i]
+     
+	    j = i - 1
+	
+		while j >= 0 and int(average_temps[j][1]) < int(key[1]):
+  
+		    average_temps[j + 1] = average_tempss[j]
+      
+		    j -= 1
+      
+		    average_temps[j + 1] = key
+	 
+	print("Sorted Average Temps:")
+ 
+	print(average_temps)
+    ```
+
+=== "Explanation"
+ 
+	`Line 1` 
+ 
+ 	: This is the list of temps we want to sort from smallest to biggest. 
+
+ 	`Line 3`
+  
+  	: This line tells the computer to look at the list one number at a time, starting from the second number (at position 1, because lists start at position 0). 
+
+  	`Line 4`
+   
+   	: Here, the computer stores the temp. we’re currently looking at. 
+    	  
+          __Remember, we start at position 1__.
+
+   	`Line 5`
+	: The computer looks at the temp that is before the one we are holding.
+
+	`Line 7`
+ 
+ 	: This line is __very important__ as it checks two things:
+	
+	1. Is there a temp before the current one?
+
+         ``` python
+     	     while j >= 0
+         ```
+	
+	2. Is this temp smaller than the current temp? 
+	
+        ``` python
+     	    and int(average_temps[j][1] < key[1]):
+        ```
+    
+	: If both answers are yes, it means the current player should be placed before the one we’re looking at. 
+
+ 	`Line 11`
+  	
+   	: This moves the bigger number to the right.
+
+  	`Line 13`
+   
+   	: The computer now looks at the next number to the left.
+ 
+ 	`Line 13`
+  	
+   	: Finally, The computer, when we find the right place for our current number, we put it there.
+ 
+ 
+
+	
+
