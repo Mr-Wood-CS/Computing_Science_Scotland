@@ -84,7 +84,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 === "Python"
 
     ``` python linenums="1"
-    	numbers = [7, 2, 5, 3, 4]
+    numbers = [7, 2, 5, 3, 4]
 
 	for i in range(1, len(arr)):
 		
