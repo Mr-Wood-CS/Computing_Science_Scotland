@@ -116,7 +116,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 	
 	`Line 3`
  
-	This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
+	: This loop goes through each item in the list, starting from the second item (i = 1). We don’t need to start from the first item because, by itself, it’s already "sorted."
 	
 	__current_number = arr[i]__
  
