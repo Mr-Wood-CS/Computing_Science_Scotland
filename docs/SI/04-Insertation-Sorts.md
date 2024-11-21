@@ -104,7 +104,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
    	print("Sorted Numbers:")
 	print(numbers)
  
-	```
+    ```
 	
 	# Example list
 	
