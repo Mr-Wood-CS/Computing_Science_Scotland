@@ -84,29 +84,29 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 === "Python"
 
     ``` python linenums="1"
-		def insertion_sort(arr):
-			# Go through each item in the list, starting from the second one
-			for i in range(1, len(arr)):
-				# Store the current number in a temporary variable
-				current_number = arr[i]
-				# Set j to be one position before i
-				j = i - 1
-			
-				# Move numbers in the sorted part of the list to the right
-				# until we find the right place for the current number
-				while j >= 0 and arr[j] > current_number:
-				arr[j + 1] = arr[j]
-				j -= 1
-			
-				# Place the current number in its correct position
-				arr[j + 1] = current_number
-   
-			return arr
+	def insertion_sort(arr):
+		# Go through each item in the list, starting from the second one
+		for i in range(1, len(arr)):
+			# Store the current number in a temporary variable
+			current_number = arr[i]
+			# Set j to be one position before i
+			j = i - 1
 		
-		# Example list
-		numbers = [7, 2, 5, 3, 4]
-		print("Before sorting:", numbers)
-		print("After sorting:", insertion_sort(numbers))
+			# Move numbers in the sorted part of the list to the right
+			# until we find the right place for the current number
+			while j >= 0 and arr[j] > current_number:
+			arr[j + 1] = arr[j]
+			j -= 1
+		
+			# Place the current number in its correct position
+			arr[j + 1] = current_number
+	
+		return arr
+	
+	# Example list
+	numbers = [7, 2, 5, 3, 4]
+	print("Before sorting:", numbers)
+	print("After sorting:", insertion_sort(numbers))
     ```
 
 === "Explanation"
@@ -152,19 +152,18 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 === "Python"
 
     ``` python linenums="1"
-	high_scores = [ ["Meena", "58"],["Joe", "50"],["Patrick", "27"],["Marta", "25"],["Andrew", "23"]]
+	average_temps = [ ["January", "8"],["February", "2"],["March", "22"],["April", "16"],["May", "28"]]
 	
-	for i in range(1, len(high_scores)):
-	    key = high_scores[i]
+	for i in range(1, len(average_temps)):
+	    key = average_temps[i]
 	    j = i - 1
 	
-	
-	while j >= 0 and int(high_scores[j][1]) < int(key[1]):
-	    high_scores[j + 1] = high_scores[j]
-	    j -= 1
-	    high_scores[j + 1] = key
-	
-	print(f"After pass {i}:")
+		while j >= 0 and int(average_temps[j][1]) < int(key[1]):
+		    average_temps[j + 1] = average_tempss[j]
+		    j -= 1
+		    average_temps[j + 1] = key
+		
+		print(f"After pass {i}:")
 	 
 	print("Sorted High Scores:")
 	print(high_scores)
