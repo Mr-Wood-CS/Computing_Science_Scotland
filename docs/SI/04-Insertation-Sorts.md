@@ -181,7 +181,7 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
    
    	: Here, the computer stores the temp. we’re currently looking at. 
     	  
-        :  __Remember, we start at position 1__.
+        : __Remember, we start at position 1__.
 
    	`Line 5`
     
