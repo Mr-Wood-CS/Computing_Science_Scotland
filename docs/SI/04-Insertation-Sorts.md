@@ -84,27 +84,29 @@ When the temp value (7) is compared with element 1 (__45__), it is smaller so 45
 === "Python"
 
     ``` python linenums="1"
-	def insertion_sort(arr):
+    	numbers = [7, 2, 5, 3, 4]
+
+	for i in range(1, len(arr)):
 		
-		for i in range(1, len(arr)):
-			# Store the current number in a temporary variable
-			current_number = arr[i]
-			# Set j to be one position before i
-			j = i - 1
+		current_number = arr[i]
 		
-			# Move numbers in the sorted part of the list to the right
-			# until we find the right place for the current number
-			while j >= 0 and arr[j] > current_number:
-			arr[j + 1] = arr[j]
-			j -= 1
-		
-			# Place the current number in its correct position
-			arr[j + 1] = current_number
+		j = i - 1
 	
-		return arr
+		while j >= 0 and arr[j] > current_number:
+  
+			arr[j + 1] = arr[j]
+   
+			j -= 1
+
+			arr[j + 1] = current_number
+   
+   	print("Sorted Numbers:")
+	print(numbers)
+ 
+	```
 	
 	# Example list
-	numbers = [7, 2, 5, 3, 4]
+	
 	print("Before sorting:", numbers)
 	print("After sorting:", insertion_sort(numbers))
     ```
