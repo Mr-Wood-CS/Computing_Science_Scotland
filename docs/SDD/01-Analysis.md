@@ -1,8 +1,5 @@
 # Analysis
 
-
-## Explanation
-
 For Advanced Higher you are required to be able to explain and use:
 
 * Functional Requirements
@@ -34,6 +31,8 @@ For Advanced Higher you are required to be able to explain and use:
 	
 	* user surveys
 
+### Explanation
+
 The feasibility study must look at the project in sufficient depth to be able to provide information that:
 
 * either shows that the development of the new system is cost-effective,
@@ -48,6 +47,8 @@ There are no legal or contractual requirements at this stage.
 The findings of the feasibility study are presented to the client in the form of a report.
 
 This report indicates costs, benefits, alternatives and appropriate recommendations.
+
+### The Four Aspects of a Feasibility Study
 
 There are four aspects of feasibility that must be considered in any feasibility study:
 
@@ -110,3 +111,33 @@ If the software being developed is new, the target user group should understand 
 When the opinion of a number of users is required, it is often easier to create a survey or questionnaire which will capture the information that the project team require.
 
 ## Project Planning
+
+!!! info "What you Need to Know"
+
+	Describe, exemplify, and implement planning in terms of:
+	
+	* Scheduling
+	* Resources
+	* Gantt charts
+
+### Explanation
+
+Project planning involves dividing the project into smaller tasks that are allocated to teams. 
+
+The project leader must use the available resources in the best possible way to get the job completed successfully and on time. 
+
+Project management software will organise the project into smaller tasks and then schedule these tasks. The schedule can be displayed as a Gantt Chart.
+
+As the project progresses and jobs are completed or delayed, the charts can be updated to show the current position.
+
+In this way, the progress of a project can be monitored regularly.
+
+A project plan must show:
+
+* the individual tasks that must be carried out
+* the time required for each task
+* the sequencing of the tasks to be carried out
+* the resources needed for each task
+* the costs involved in carrying out each task
+
+### Scheduling
