@@ -11,10 +11,18 @@ For Advanced Higher you are required to be able to explain and use:
 
 ## ^^Functional Requirements^^
 
-!!! info
+!!! info "What you Need to Know"
 
-	Functional requirements are defined in terms of the inputs, processes, and outputs of  a program.
-	Nothing has changed from higher.
+    Identify the purpose and functional requirements of a problem that relates to the design and implementation at this level in terms of: 
+    
+    * inputs 
+    * processes
+    * outputs 
+
+
+Functional requirements are defined in terms of the inputs, processes, and outputs of  a program.
+	
+This is exactly the same as higher.
 
 
 ## ^^Feasability Studies^^
