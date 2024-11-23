@@ -9,7 +9,7 @@ For Advanced Higher you are required to be able to explain and use:
 * Requirement Specifications
 * Unified Modelling Language (UML)
 
-## Functional Requirements
+## ^^Functional Requirements^^
 
 !!! info
 
@@ -17,7 +17,7 @@ For Advanced Higher you are required to be able to explain and use:
 	Nothing has changed from higher.
 
 
-## Feasability Studies
+## ^^Feasability Studies^^
 
 !!! info "What you Need to Know"
 
@@ -31,7 +31,7 @@ For Advanced Higher you are required to be able to explain and use:
 	
 	* user surveys
 
-### Explanation
+### ==Explanation==
 
 The feasibility study must look at the project in sufficient depth to be able to provide information that:
 
