@@ -20,7 +20,7 @@ For Advanced Higher you are required to be able to explain and use:
 	Nothing has changed from higher.
 
 
-# Feasability Studies
+## Feasability Studies
 
 !!! info "What you Need to Know"
 
@@ -39,6 +39,7 @@ The feasibility study must look at the project in sufficient depth to be able to
 * either shows that the development of the new system is cost-effective,
 	
 * or shows why the project should not continue.
+  
 
 The feasibility study should be conducted relatively cheaply and within a fairly short time frame. 
 
@@ -50,7 +51,7 @@ This report indicates costs, benefits, alternatives and appropriate recommendati
 
 There are four aspects of feasibility that must be considered in any feasibility study:
 
-=== "### Economic Feasability"
+=== "Economic Feasability"
 
     The client will want to know the cost of each option and what they get for their money.
 
@@ -62,7 +63,7 @@ There are four aspects of feasibility that must be considered in any feasibility
     * the benefits that will result from the development
     * the break-even point when the new system stops costing money and starts making money
 
-=== "### Legal Feasability"
+=== "Legal Feasability"
 
     This considers the legal issues associated with the development of a new information system. Particular notice must be given to the legislation outlined in:
 
@@ -78,7 +79,7 @@ There are four aspects of feasibility that must be considered in any feasibility
 
     * The issue of software licensing is important.
 
-=== "### Technical Feasability"
+=== "Technical Feasability"
 
     The technical feasibility study must identify the technologies that will be necessary for the proposed system to function correctly. 
 
@@ -86,7 +87,7 @@ There are four aspects of feasibility that must be considered in any feasibility
 
     * If the required technologies are available, the technical feasibility must determine whether or not the client already has the necessary resources. If not, the resources that must be acquired are identified and suitable hardware and software recommended.
 
-=== "### Time Feasability"
+=== "Time Feasability"
 
     The time necessary to develop a new information system is considerable. For this reason, the time feasibility must consider not only the time needed to carry out the development but how this will affect the client.
 
