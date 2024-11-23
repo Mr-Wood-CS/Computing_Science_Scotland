@@ -99,7 +99,7 @@ There are four aspects of feasibility that must be considered in any feasibility
     * when is the best time to train users how to use the new system
     * when will the  system be ready for use.
 
-## User Survey
+### User Survey
 
 The users of a particular program are the best people to identify the existing problems with the software and how it could be improved.
 
@@ -108,3 +108,5 @@ If the software being developed is new, the target user group should understand 
 > For example, a new library system would be developed following some time spent capturing the experience of existing librarians and how they operate.
 
 When the opinion of a number of users is required, it is often easier to create a survey or questionnaire which will capture the information that the project team require.
+
+## Project Planning
