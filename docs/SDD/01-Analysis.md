@@ -162,7 +162,7 @@ A significant amount of the resource required to complete a project will be the 
 
 There will also be other resources that may be required to complete the project: specialist hardware/software, external consultants/designers, legal and other professionals.
 
-### `Gantt Charts`
+### 'Gantt Charts'
 
 A Gantt chart is a way of showing the work breakdown schedule against a timeline.
 
