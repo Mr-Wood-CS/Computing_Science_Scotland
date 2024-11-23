@@ -266,9 +266,9 @@ If a match is found, the program will display the row of data (item id, price an
     * if a match is found, the data (itemID, price, and number in stock) will correspond to the end-user input
     * if no match is found, a suitable message will inform the end user
 
-    == There is the assumption that the data is being input from an external file, this is why it the price and quantity are part of input.==
+    {== There is the assumption that the data is being input from an external file, this is why it the price and quantity are part of input.
     
-    == There is slso an assumption that a binary search is being used which is why the data is sorted first.==
+    There is slso an assumption that a binary search is being used which is why the data is sorted first.==}
 
 === "Scope"
 
