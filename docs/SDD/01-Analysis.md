@@ -52,7 +52,7 @@ This report indicates costs, benefits, alternatives and appropriate recommendati
 
 There are four aspects of feasibility that must be considered in any feasibility study:
 
-=== " *** Economic Feasability "
+=== "Economic Feasability"
 
     The client will want to know the cost of each option and what they get for their money.
 
@@ -100,7 +100,7 @@ There are four aspects of feasibility that must be considered in any feasibility
     * when is the best time to train users how to use the new system
     * when will the  system be ready for use.
 
-### User Survey
+### ==User Survey==
 
 The users of a particular program are the best people to identify the existing problems with the software and how it could be improved.
 
@@ -110,7 +110,7 @@ If the software being developed is new, the target user group should understand 
 
 When the opinion of a number of users is required, it is often easier to create a survey or questionnaire which will capture the information that the project team require.
 
-## Project Planning
+## ^^Project Planning^^
 
 !!! info "What you Need to Know"
 
@@ -120,7 +120,7 @@ When the opinion of a number of users is required, it is often easier to create 
 	* Resources
 	* Gantt charts
 
-### Explanation
+### ==Explanation==
 
 Project planning involves dividing the project into smaller tasks that are allocated to teams. 
 
@@ -140,7 +140,7 @@ A project plan must show:
 * the resources needed for each task
 * the costs involved in carrying out each task
 
-### Scheduling
+### ==Scheduling==
 
 The role of project manager is to use his/her skills to turn the project requirements specification into a work breakdown structure and then to estimate the amount of effort required to complete each task.
 
@@ -154,7 +154,7 @@ It can also be a point where the client will be given a deliverable; where the c
  
 When the tasks within the milestone are completed then the milestone is achieved.
 
-### Resources
+### ==Resources==
 
 Projects require resources in order to be completed. 
 
