@@ -58,29 +58,42 @@ There are four aspects of feasibility that must be considered in any feasibility
 
 * time feasibility
 
-### Economic
+### Economic Feasability
 
 The client will want to know the cost of each option and what they get for their money.
 
 A system is only economically feasible if the benefits of the development outweigh the costs. For this reason a cost benefit analysis is carried out.
 
 The cost-benefit analysis will identify:
+
 * the costs involved in the developmen
 * the benefits that will result from the development
 * the break-even point when the new system stops costing money and starts making money
 
-### Legal
+### Legal Feasability
 
 This considers the legal issues associated with the development of a new information system. Particular notice must be given to the legislation outlined in:
 
 GDPR
+
 * Will the new system contain details of living persons?
 
 Computer Misuse Act (1990)
+
 * The potential for hacking and plating viruses must be considered.
 
 Copyright, Design and Patents Act (1988)
+
 * The issue of software licensing is important.
+
+### Technical
+
+The technical feasibility study must identify the technologies that will be necessary for the proposed system to function correctly. 
+
+Once identified, the technical feasibility then considers whether or not the technologies necessary are currently available.
+
+* If the required technologies are available, the technical feasibility must determine whether or not the client already has the necessary resources. If not, the resources that must be acquired are identified and suitable hardware and software recommended.
+
 
 
 
