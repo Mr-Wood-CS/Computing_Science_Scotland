@@ -3,7 +3,7 @@ nav:
     - Home: 'index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
-      - Analysis: 'SI/01-Analysis.md
+      - Analysis: 'SDD/01-Analysis.md'
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Parallel Arrays: 'SI/01-Parallel-1D-Arrays.md' 
