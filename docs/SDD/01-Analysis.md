@@ -173,5 +173,73 @@ The timeline is used to show:
 * where activities overlap with each other and
 * the start and end dates for the whole project.
 
-Gantt charts can also be used to show the dependencies between tasks on the timeline.
+> Gantt charts can also be used to show the dependencies between tasks on the timeline.
+
+## ^^Requirement Specification^^
+
+### ==Explanation==
+
+All the information acquired up to this point is contained within the Requirement Specification which is produced for the client.
+
+The requirements specification contains:
+
+* Functional Requirements
+* End-User Requirements
+* Scope, Boundaries & Constraints
+
+Producing the requirement spec is an iterative process between the client and the consultants as both sides must agree on what is to be produced.
+
+It is a legal binding document and protects both parties:
+
+* The client knows what they are paying for and the consultants must deliver this.
+* The consultants know what they have to develop and stops the client from changing their minds
+
+The requirements specification is used for validation throughout the process.
+
+* The consultants use it to make sure that what they are producing is correct.
+* The client use it at beta testing to ensure that what they have is what they asked for.
+
+### ==Requirement Specification Breakdown==
+
+=== "Functional Requirements"
+
+    The functional requirements (inputs, processes and outputs) should be written in such a way that the end-user can understand them clearly and unambiguously, but also so that the programmers know what they have to produce.
+
+=== "Scope"
+
+    The scope is a list of the deliverables that the project will and over to the client and/or end-user.
+
+    E.g. design, completed program, test plan, test results and evaluation report.
+
+    This hasn’t changed from higher
+
+=== "Boundaries"
+
+    The boundaries are the limits that help to define what is in the project and what is not.  It can also clarify any assumptions made by the software developers regarding the clients requirements.
+
+    This hasn’t changed from higher.
+
+
+=== "Constraints"
+
+    Technical constraints
+
+    * knowledge and/or availability of development tools and programming language
+    * the operating system or platforms that will be used to deliver the working solution
+    * hardware considerations such as capacity
+    * non-functional requirements such as performance considerations
+
+    Business constraints:
+
+    * schedule and timescales that must be met
+    * available budget
+    * composition and makeup of the development team
+    * software licensing restrictions or requirements
+
+    Further constraints:
+
+    * economic considerations
+    * political issues
+
+
 
