@@ -241,5 +241,62 @@ The requirements specification is used for validation throughout the process.
     * economic considerations
     * political issues
 
+### ==Worked Example==
 
+The purpose of a program is to allow the end user to search for an item on an unsorted list of data. 
 
+If a match is found, the program will display the row of data (item id, price and number in stock) for the item.
+
+=== "Functional Requirements"
+
+    **Inputs**
+    
+    * itemID
+    * price
+    * quantity in stock
+    
+    **Processes**
+    
+    * read in data from an external file to a 2D array
+    * sort the data in order of itemID from low to high
+    * search the 2D array for the required itemID, based on the end-user input
+
+    **Output**
+    * if a match is found, the data (itemID, price, and number in stock) will correspond to the end-user input
+    * if no match is found, a suitable message will inform the end user
+
+    == There is the assumption that the data is being input from an external file, this is why it the price and quantity are part of input.==
+    == Also an assumption that a binary search is being used which is why the data is sorted first.==
+
+=== "Scope"
+
+    This development involves creating a modular program. The deliverables include:
+
+    * a detailed design of the program structure
+    * a test plan with a completed test data table
+    * a working program
+    * the results of testing
+    * an evaluation report
+
+=== "Boundaries"
+
+    The boundaries of my program are:
+    
+    * the program will read the data (itemID, price, and number in stock) from a sequential file
+    * the data is accurate, there is no need to implement input validation
+
+=== "End User Requirements"
+
+    End users will expect:
+    
+    * to enter an itemID while the program is running
+    * the data corresponding to the itemID to be displayed
+    * a user interface that is clearly labelled and easy to use for all user types
+
+=== "Constraints"
+
+    The constraints that apply to this development are:
+    
+    * Python or Visual Basic must be used to develop the program.
+    * The working program will run on the Windows operating system.
+    * The work must be completed within 8 hours.
