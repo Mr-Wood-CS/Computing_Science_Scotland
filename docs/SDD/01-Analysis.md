@@ -6,31 +6,18 @@
 For Advanced Higher you are required to be able to explain and use:
 
 * Functional Requirements
-* Feasibility Studies - 
-* User Surveys - 
-* Project Planning:
-	* Scheduling
-	* Resources
-	* Gantt charts
-
+* Feasibility Studies 
+* User Surveys
+* Project Planning
 * Requirement Specifications
-	* end-user requirements
-	* scope, boundaries and constraints
-	* functional requirements
-
-* Unified Modelling Language (UML):
-	* use case diagrams:
-		* actors
-		* use cases
-
-
+* Unified Modelling Language (UML)
 
 ## Functional Requirements
 
-``` info
+!!! info
 Functional requirements are defined in terms of the inputs, processes, and outputs of  a program.
 Nothing has changed from higher.
-```
+
 
 # 
 
