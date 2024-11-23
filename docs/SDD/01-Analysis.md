@@ -48,11 +48,11 @@ The findings of the feasibility study are presented to the client in the form of
 
 This report indicates costs, benefits, alternatives and appropriate recommendations.
 
-### The Four Aspects of a Feasibility Study
+### ==The Four Aspects of a Feasibility Study==
 
 There are four aspects of feasibility that must be considered in any feasibility study:
 
-=== "Economic Feasability"
+=== " *** Economic Feasability "
 
     The client will want to know the cost of each option and what they get for their money.
 
