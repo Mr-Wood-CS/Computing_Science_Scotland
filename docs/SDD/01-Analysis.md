@@ -25,10 +25,12 @@ For Advanced Higher you are required to be able to explain and use:
 !!! info "What you Need to Know"
 
 	Describe, exemplify, and implement research for:
+ 
 	* feasibility studies:
+ 
 		* economic
 		* time
-		*legal
+		* legal
 		* technical
 	
 	* user surveys
