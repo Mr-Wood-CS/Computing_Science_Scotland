@@ -141,3 +141,37 @@ A project plan must show:
 * the costs involved in carrying out each task
 
 ### Scheduling
+
+The role of project manager is to use his/her skills to turn the project requirements specification into a work breakdown structure and then to estimate the amount of effort required to complete each task.
+
+These tasks can then be allocated as items of work to be completed by individuals and/or teams. 
+
+A work breakdown structure represents the hierarchy of tasks to be completed and the milestones within the project. 
+
+A milestone is a specific point in the project timeline which has some level of importance. It will be a point at which the project progress is evaluated and reported to the client. 
+
+It can also be a point where the client will be given a deliverable; where the client will receive some of the output from the project work.
+ 
+When the tasks within the milestone are completed then the milestone is achieved.
+
+### Resources
+
+Projects require resources in order to be completed. 
+
+A significant amount of the resource required to complete a project will be the members of the project team. 
+
+There will also be other resources that may be required to complete the project: specialist hardware/software, external consultants/designers, legal and other professionals.
+
+### Gantt Charts
+
+A Gantt chart is a way of showing the work breakdown schedule against a timeline.
+
+The timeline is used to show:
+
+* when the activity to complete tasks begins and ends,
+* how long each activity is scheduled to last,
+* where activities overlap with each other and
+* the start and end dates for the whole project.
+
+Gantt charts can also be used to show the dependencies between tasks on the timeline.
+
