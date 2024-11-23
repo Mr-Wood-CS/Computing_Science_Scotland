@@ -40,6 +40,49 @@ The feasibility study must look at the project in sufficient depth to be able to
 	
 * or shows why the project should not continue.
 
+The feasibility study should be conducted relatively cheaply and within a fairly short time frame. 
+
+There are no legal or contractual requirements at this stage.
+
+The findings of the feasibility study are presented to the client in the form of a report.
+
+This report indicates costs, benefits, alternatives and appropriate recommendations.
+
+There are four aspects of feasibility that must be considered in any feasibility study:
+
+* economic feasibility
+
+* legal feasibility
+
+* technical feasibility
+
+* time feasibility
+
+### Economic
+
+The client will want to know the cost of each option and what they get for their money.
+
+A system is only economically feasible if the benefits of the development outweigh the costs. For this reason a cost benefit analysis is carried out.
+
+The cost-benefit analysis will identify:
+* the costs involved in the developmen
+* the benefits that will result from the development
+* the break-even point when the new system stops costing money and starts making money
+
+### Legal
+
+This considers the legal issues associated with the development of a new information system. Particular notice must be given to the legislation outlined in:
+
+GDPR
+* Will the new system contain details of living persons?
+
+Computer Misuse Act (1990)
+* The potential for hacking and plating viruses must be considered.
+
+Copyright, Design and Patents Act (1988)
+* The issue of software licensing is important.
+
+
 
 When developing Computer Systems there needs to be a lot of planning as real world systems are of a huge size, are complex and have massive technological importance in all areas of our lives. For example:
 
