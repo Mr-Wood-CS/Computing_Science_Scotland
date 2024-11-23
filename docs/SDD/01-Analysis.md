@@ -27,7 +27,6 @@ For Advanced Higher you are required to be able to explain and use:
 	Describe, exemplify, and implement research for:
  
 	* feasibility studies:
- 
 		* economic
 		* time
 		* legal
@@ -37,9 +36,9 @@ For Advanced Higher you are required to be able to explain and use:
 
 The feasibility study must look at the project in sufficient depth to be able to provide information that:
 
-	* either shows that the development of the new system is cost-effective,
+* either shows that the development of the new system is cost-effective,
 	
-	* or shows why the project should not continue.
+* or shows why the project should not continue.
 
 
 When developing Computer Systems there needs to be a lot of planning as real world systems are of a huge size, are complex and have massive technological importance in all areas of our lives. For example:
