@@ -262,11 +262,13 @@ If a match is found, the program will display the row of data (item id, price an
     * search the 2D array for the required itemID, based on the end-user input
 
     **Output**
+    
     * if a match is found, the data (itemID, price, and number in stock) will correspond to the end-user input
     * if no match is found, a suitable message will inform the end user
 
     == There is the assumption that the data is being input from an external file, this is why it the price and quantity are part of input.==
-    == Also an assumption that a binary search is being used which is why the data is sorted first.==
+    
+    == There is slso an assumption that a binary search is being used which is why the data is sorted first.==
 
 === "Scope"
 
@@ -280,7 +282,7 @@ If a match is found, the program will display the row of data (item id, price an
 
 === "Boundaries"
 
-    The boundaries of my program are:
+    The boundaries of the program are:
     
     * the program will read the data (itemID, price, and number in stock) from a sequential file
     * the data is accurate, there is no need to implement input validation
