@@ -15,8 +15,9 @@ For Advanced Higher you are required to be able to explain and use:
 ## Functional Requirements
 
 !!! info
-Functional requirements are defined in terms of the inputs, processes, and outputs of  a program.
-Nothing has changed from higher.
+
+	Functional requirements are defined in terms of the inputs, processes, and outputs of  a program.
+	Nothing has changed from higher.
 
 
 # 
