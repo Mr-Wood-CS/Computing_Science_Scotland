@@ -78,5 +78,6 @@ theme:
     - navigation.indexes 
     - navigation.path
     #- navigation.footer
+    - navigation.tabs
     
 
