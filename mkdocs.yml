@@ -77,6 +77,6 @@ theme:
     - navigation.top
     - navigation.indexes 
     - navigation.path
-    - navigation.footer
+    #- navigation.footer
     
 
