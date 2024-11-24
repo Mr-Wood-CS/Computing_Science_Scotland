@@ -10,6 +10,8 @@ nav:
           - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'  
      # - Design:
           #- Functional Requirements: ''
+      - Implementation - Algorithm Specification:
+          - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'  
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Parallel Arrays: 'SI/01-Parallel-1D-Arrays.md' 
