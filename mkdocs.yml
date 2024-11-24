@@ -9,7 +9,7 @@ nav:
           - Project Planning: 'SDD/1.4-Project-Planning.md'
           - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'  
           - Design:
-              - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'
+          - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'
 
     - Analysis: 
     - Unit 2 - Software Implementation:
