@@ -7,10 +7,9 @@ nav:
           - Functional Requirements: 'SDD/1.2-Functional-Requirements.md'
           - Feasability Studies: 'SDD/1.3-Feasability-Studies.md'
           - Project Planning: 'SDD/1.4-Project-Planning.md'
-          - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'
-          
-      - Design:
-          - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'
+          - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'  
+          - Design:
+              - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'
 
     - Analysis: 
     - Unit 2 - Software Implementation:
