@@ -3,8 +3,8 @@ nav:
     - Home: 'index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
-      - Development Methodologies: 
-          - Analysis: 'SDD/01-Analysis.md'
+      - Analysis: 
+          - Functional Requirements: 'SDD/1.2-Functional-Requirements.md'
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Parallel Arrays: 'SI/01-Parallel-1D-Arrays.md' 
