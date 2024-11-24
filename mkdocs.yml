@@ -16,7 +16,7 @@ nav:
           - Arrays-of-Records: 'SI/1.3-Arrays-of-Records.md' 
       - Implementation - Algorithm specification:
           - Insertation Sorts: 'SI/3.2-Insertation-Sorts.md' 
-              - 1D Array Insertation Sorts: 'SI/3.2-Insertation-Sorts.md' 
+                  - 1D Array Insertation Sorts: 'SI/3.2-Insertation-Sorts.md' 
     - Unit 2 - Computer Systems:
       - CS/index.md
     - Unit 3 - Database Design and Development:
