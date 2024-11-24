@@ -3,6 +3,7 @@ nav:
     - Home: 'index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
+      - Development Methodologies: 
       - Analysis: 'SDD/01-Analysis.md'
     - Unit 2 - Software Implementation:
       - SI/index.md
