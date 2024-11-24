@@ -8,8 +8,8 @@ nav:
           - Feasability Studies: 'SDD/1.3-Feasability-Studies.md'
           - Project Planning: 'SDD/1.4-Project-Planning.md'
           - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'  
-      - Design:
-          - Functional Requirements: ''
+     # - Design:
+          #- Functional Requirements: ''
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Parallel Arrays: 'SI/01-Parallel-1D-Arrays.md' 
