@@ -17,9 +17,9 @@ nav:
       - Implementation - Algorithm specification:
           - Insertation Sorts: 'SI/3.2-Insertation-Sorts.md' 
     - Unit 2 - Computer Systems:
-      #- CS/index.md
+      - CS/index.md
     - Unit 3 - Database Design and Development:
-      #- DDD/index.md
+      - DDD/index.md
 
 markdown_extensions:
     - admonition
