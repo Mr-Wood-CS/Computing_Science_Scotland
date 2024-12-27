@@ -43,7 +43,7 @@ markdown_extensions:
     - pymdownx.tabbed:
         alternate_style: true
     plugins:
-        - mkdocs-pd  
+        - mkdocs-pdf  
 
 theme:
   name: material
