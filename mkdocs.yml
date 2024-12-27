@@ -83,4 +83,4 @@ theme:
     #- navigation.footer
     - navigation.tabs
   plugins:
-        - mkdocs-pdf  
+    - mkdocs-pdf  
