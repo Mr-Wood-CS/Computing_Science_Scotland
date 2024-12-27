@@ -21,6 +21,8 @@ nav:
       - CS/index.md
     - Unit 3 - Database Design and Development:
       - DDD/index.md
+    - Revision:
+      - Past-Papers/index.md
 
 markdown_extensions:
     - admonition
