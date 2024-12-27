@@ -42,6 +42,8 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.tabbed:
         alternate_style: true
+  plugins:
+    - mkdocs-pdf  
 theme:
   name: material
   font:
@@ -83,5 +85,4 @@ theme:
     #- navigation.footer
     - navigation.tabs
     
-plugins:
-    - mkdocs-pdf  
+
