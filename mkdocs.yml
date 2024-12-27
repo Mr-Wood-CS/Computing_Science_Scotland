@@ -82,5 +82,5 @@ theme:
     - navigation.path
     #- navigation.footer
     - navigation.tabs
-  plugins:
+plugins:
     - mkdocs-pdf  
