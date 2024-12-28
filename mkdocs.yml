@@ -43,8 +43,7 @@ markdown_extensions:
     - pymdownx.tabbed:
         alternate_style: true
     plugins:
-        - with-pdf:
-            author: SQA
+     - with-pdf
 theme:
   name: material
   font:
