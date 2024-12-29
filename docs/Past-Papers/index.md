@@ -1,4 +1,7 @@
 # Past Papers
 
 
-![Alt text](<NAH_Computing-Science_QP_2019.PDF>){ type=application/pdf }
+<div class="grid cards" markdown>
+- :fontawesome-brands-python: [2019](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
+- :fontawesome-brands-python: [Golf Championship](../Static/Golf-Championship.py){:download="Golf-Championship.py"}
+</div>
