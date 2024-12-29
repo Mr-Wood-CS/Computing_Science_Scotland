@@ -24,9 +24,8 @@ nav:
     - Revision:
       - Revision/index.md
       - Past Papers:
-          Question Papers: 'Past-Papers/1.0-Question-Papers.md'
-          Project Papers:
-
+          Question Papers: 'Revision/1.0-Question-Papers.md'
+          Project Papers: 'Revision/2.0-Assignment-Papers.md'
 markdown_extensions:
     - admonition
     - pymdownx.details
