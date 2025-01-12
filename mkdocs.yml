@@ -4,20 +4,22 @@ nav:
     - Unit 1 - Software Design and Development:
       - SDD/index.md
       - Analysis: 
+          - Explanation: 'SDD/1.0-Analysis-Explanation.md'
           - Functional Requirements: 'SDD/1.2-Functional-Requirements.md'
           - Feasability Studies: 'SDD/1.3-Feasability-Studies.md'
           - Project Planning: 'SDD/1.4-Project-Planning.md'
           - Requirement Specification: 'SDD/1.5-Requirement-Specification.md'  
-     # - Design:
-          #- Functional Requirements: ''
+      - Design:
+          - Explanation: 'SDD/3.0-Design-Explanation.md'
       - Software Implementation:
+          - Explanation: 'SDD/4.0-Software-Implementation-Explanantion.md'  
           - Parallel-1D-arrays: 'SDD/4.1-Parallel-1D-Arrays.md'  
           - Working-with-Records: 'SDD/4.2-Working-with-Records.md' 
           - Arrays-of-Records: 'SDD/4.3-Arrays-of-Records.md' 
           - Binary Search: 'SDD/4.4-Binary-Search.md'
           - Insertation Sorts: 'SDD/4.5-Insertation-Sorts.md'
-    - Unit 2 - Computer Systems:
-      - CS/index.md
+    #- Unit 2 - Computer Systems:
+      #- CS/index.md
     - Unit 3 - Database Design and Development:
       - DDD/index.md
     - Revision:
