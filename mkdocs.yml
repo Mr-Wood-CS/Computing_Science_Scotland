@@ -18,6 +18,8 @@ nav:
           - Arrays-of-Records: 'SDD/4.3-Arrays-of-Records.md' 
           - Binary Search: 'SDD/4.4-Binary-Search.md'
           - Insertation Sorts: 'SDD/4.5-Insertation-Sorts.md'
+          - OOP - Class: 'SDD/4.7-Class.md'
+          - OOP - Objects: 'SDD/4.8-Objects.md'
     #- Unit 2 - Computer Systems:
       #- CS/index.md
     - Unit 3 - Database Design and Development:
