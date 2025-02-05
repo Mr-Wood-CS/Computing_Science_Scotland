@@ -16,10 +16,11 @@ nav:
           - Parallel-1D-arrays: 'SDD/4.1-Parallel-1D-Arrays.md'  
           - Working-with-Records: 'SDD/4.2-Working-with-Records.md' 
           - Arrays-of-Records: 'SDD/4.3-Arrays-of-Records.md' 
-          - Binary Search: 'SDD/4.4-Binary-Search.md'
-          - Insertation Sorts: 'SDD/4.5-Insertation-Sorts.md'
+          - 2d Arrays: 'SDD/4.4-2d-Arrays.md' 
+          - Binary Search: 'SDD/4.5-Binary-Search.md'
+          - Insertation Sorts: 'SDD/4.6-Insertation-Sorts.md'
           - OOP - Class: 'SDD/4.7-Class.md'
-          - OOP - Objects: 'SDD/4.8-Objects.md'
+          - OOP - Objects: 'SDD/4.9-Objects.md'
     #- Unit 2 - Computer Systems:
       #- CS/index.md
     - Unit 3 - Database Design and Development:
@@ -45,6 +46,7 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.tabbed:
         alternate_style: true
+
 theme:
   name: material
   font:
