@@ -21,6 +21,7 @@ nav:
           - Insertation Sorts: 'SDD/4.6-Insertation-Sorts.md'
           - OOP - Class: 'SDD/4.7-Class.md'
           - OOP - Objects: 'SDD/4.9-Objects.md'
+          - SQLlite with Python: 'SDD/5.1-SQLite-with-Python.md'
     #- Unit 2 - Computer Systems:
       #- CS/index.md
     - Unit 3 - Database Design and Development:
