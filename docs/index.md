@@ -1,3 +1,3 @@
-# Welcome to Advanced Higher Computing Science
+# Welcome to BGE and Senior Phase Computing Science
 
 
