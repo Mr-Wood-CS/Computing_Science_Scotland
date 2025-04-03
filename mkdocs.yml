@@ -1,11 +1,14 @@
 site_name: BGE and Senior Phase Computing Science
 nav:
     - Home: 'index.md'
-    - BGE:
+    - S1:
       - Home: BGE/index.md
-      - S1: 'BGE/S1/index.md'
-      - S2: 'BGE/S2/index.md'
-      - S3: 'BGE/S3/index.md'
+      - Pyton Programming: 'BGE/S2/Intro_to_Python.md'
+    - S2:
+      - Home: BGE/S2/S2_index.md
+      - Pyton Programming: 
+        - Introduction to Python: 'BGE/S2/Intro_to_Python/Intro_to_Python.md'
+    - S3: 'BGE/S3/index.md'
     - Senior Phase: 
       - Home: 'Senior_Phase/index.md'
       
@@ -68,5 +71,7 @@ theme:
     - navigation.path
     #- navigation.footer
     - navigation.tabs
+  extra_javascript:
+  - js/main.js  # Ensure this path points to your external JS file
     
 
