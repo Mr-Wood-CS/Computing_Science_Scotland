@@ -4,14 +4,14 @@
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color:transparent;
     color: white;
     border: none;
     border-radius: 5px;
   }
 
   #readTextButton:hover {
-    background-color: #0056b3;
+    background-color:transparent;
   }
 </style>
 
@@ -31,23 +31,14 @@ Python allows us to output all kinds of things such as graphics and text. To sim
 print(“Hello World!”)
 ```
 
-## Inputs
+## Inputs <button id="readTextButton">🔊</button>
 
 The input() command allows us to enter some text into our program. We can combine input() with other commands: 
 
-<button id="readTextButton">Read Text</button>
-
-## Text-to-Speech Example
-
-<select id="voiceSelect"></select>  
-<button class="read-text" data-text="Hello! This is a text-to-speech example.">🔊 Read Aloud</button>  
-<button id="pauseSpeech">⏸ Pause</button>  
-<button id="resumeSpeech">▶ Resume</button>  
-<button id="stopSpeech">⏹ Stop</button>  
-
 <script>
   document.getElementById("readTextButton").addEventListener("click", function() {
-    var text = "The input() command allows us to enter some text into our program. We can combine input() with other commands:"; // Replace with the text you want to be read
+    var text = "Inputs. The input() command allows us to enter some text into our program. We can combine input() with other commands.For example: print, open bracket,input,open bracket“What is your name?”, closed bracket, closed bracket"
+    ; // Replace with the text you want to be read
     var speech = new SpeechSynthesisUtterance(text);
     window.speechSynthesis.speak(speech);
   });
