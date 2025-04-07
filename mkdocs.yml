@@ -13,24 +13,28 @@ nav:
       - Home: 'Senior_Phase/index.md'
       
 markdown_extensions:
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
-    - def_list
-    - pymdownx.critic
-    - pymdownx.caret
-    - pymdownx.keys
-    - pymdownx.mark
-    - pymdownx.tilde
-    - attr_list
-    - md_in_html    
-    - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
-    - pymdownx.superfences
-    - pymdownx.tabbed:
-        alternate_style: true
-
+      - admonition
+      - pymdownx.details
+      - def_list
+      - pymdownx.critic
+      - pymdownx.caret
+      - pymdownx.keys
+      - pymdownx.mark
+      - pymdownx.tilde
+      - attr_list
+      - md_in_html    
+      - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      - pymdownx.superfences
+      - pymdownx.tabbed:
+          alternate_style: true
+      - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+      - pymdownx.inlinehilite
+      - pymdownx.snippets
 theme:
   name: material
   font:
@@ -65,13 +69,13 @@ theme:
       quote: fontawesome/solid/quote-left
   features:
     - content.code.copy
+    - content.code.annotate
     - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes 
     - navigation.path
     #- navigation.footer
     - navigation.tabs
-  extra_javascript:
-  - js/main.js  # Ensure this path points to your external JS file
+
     
 
