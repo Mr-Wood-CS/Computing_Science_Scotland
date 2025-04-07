@@ -37,7 +37,7 @@ The input() command allows us to enter some text into our program. We can combin
 
 <script>
   document.getElementById("readTextButton").addEventListener("click", function() {
-    var text = "Inputs. The input() command allows us to enter some text into our program. We can combine input() with other commands.For example: print, open bracket,input,open bracket“What is your name?”, closed bracket, closed bracket"
+    var text = "Inputs. The input() command allows us to enter some text into our program. We can combine input() with other commands.For example: print, open bracket,input,open bracket“What is your name?”, closed bracket"
     ; // Replace with the text you want to be read
     var speech = new SpeechSynthesisUtterance(text);
     window.speechSynthesis.speak(speech);
