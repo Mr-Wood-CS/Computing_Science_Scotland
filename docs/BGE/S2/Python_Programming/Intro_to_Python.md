@@ -45,38 +45,58 @@ print(yourname) #(2)
 
 !!! question "Project 1: Introducing Python"
 
+    !!! info "Area of a Triangle"
 
+        <figure markdown="span">
+            ![img 1](../../Global_Images/Turing.png){ width="400" }
+        </figure>
+    
+        ==General Problem==
 
-    ??? info "Turing - Area of a Triangle"
+        The `Maths Department` have asked you to create a program that calculates the area of a triangle.
 
         You can calculate the area of a triangle using the formula 
         
         `area = half base times height.`
-        
+
         We need to enter Python commands to perform this calculation
 
-        Step 1 - First we need to input the values for base and height and make them integer numbers.
+        ==Instructions==
+
+        Step 1 - 🔢 Input the values for base and height and make them integer numbers.
 
         Add the code below to your project
 
         ``` { .python .annontate }
-        base = int(input(“What is the length of the base? ”))  #(1)
-        height =int(input(“Height?”))
+        base = int(input(“What is the length of the Triangle base? ”))  #(1)
+        height =int(input(“What is the height of the Triangle?”))       #(2)
         ```
 
-        1.  :man_raising_hand:
-        This part shows a question on the screen. The question asks the user, “What is the length of the base?” and waits for the user to type an answer. The answer is converted into a number using the 'int()' keyword and stored in the `base` variable so that the computer can use it again later.
+        1.  
+            - **:straight_ruler: Ask the user `“What is the length of the base?”` and wait for the user to type an answer.**
+            - **:material-pencil-ruler-outline: The answer is then converted into a number using the `int()` keyword and stored in the `base` variable so that the computer can use it again later.**
+        2.  
+            - **:straight_ruler: Ask the user `“What is the height of the Triangle?”` and wait for the user to type an answer.**
+            - **:material-pencil-ruler-outline: The answer is converted into a number using the `int()` keyword and stored in the `height` variable so that the computer can use it again later.**
+        
+        Step 2 - 🖥️ Display the Answer
 
         ```{ .python .annontate }
         print(base* height)/ 2 #(1)
         ```
 
-        1.  :man_raising_hand:
-        This part shows a question on the screen. The question asks the user, “What is the length of the base?” and waits for the user to type an answer. The answer is converted into a number using the 'int()' keyword and stored in the `base` variable so that the computer can use it again later.
+        1.  
+            -** 🖥️ Display the answer on your screen**
 
         Congratulations , You have just carried out a calculation using the two variables (`base and height`)and printed the result on the screen!
 
-    ??? info "Hopper  - Temperature Convertor"
+
+
+    !!! info "Temperature Convertor"
+
+        <figure markdown="span">
+            ![img 1](../../Global_Images/Hopper.png){ width="400" }
+        </figure>
 
           ==General Problem==
 
@@ -99,8 +119,8 @@ print(yourname) #(2)
           ```
 
           1.  
-          Ask the user to enter the temperature.
-          The answer is converted into a number using the `int()` keyword and stored in the `C` variable so that the computer can use it again later.
+            - **Ask the user to enter the temperature.**
+            - **The answer is converted into a number using the `int()` keyword and stored in the `C` variable so that the computer can use it again later.**
 
           Step 2 - 🧮 Create the Calculation
 
@@ -110,18 +130,34 @@ print(yourname) #(2)
           F = C + 35 #(3)
           ```
 
-          1. This takes the value in C, multiplies it by 9 and stores the answer back in C again. `Now C contains this new answer.`
-          2. This takes the previous answer stored in `C`, divideds it by 5 and saves it back into `C`.
-          3. Add 32 to the last answer and store it back into C. The number that is
-          now stored in the variable C is actually the temperature converted into ==degrees
-          Fahrenheit!==
+          1. 
+            - **This takes the value in C, multiply the value in `C` by 9 and store the answer back in C again.**
+            - **`C` now contains this new answer.**
+          2. 
+            - **Take the new value stored in `C` and divided it by 5** and 
+            - **Saves the new value back into `C`.**
+          3. 
+            - **Add 32 to the last answer and store it back into the `C` variable.** 
+            - **The number that is now stored in the variable `C` is the orginal temperature converted into ==degrees Fahrenheit!==**
 
           Step 3 - 🖥️ Display the Answer
           ``` python
           print (C)
           ```
+    
+## Extra Credit Tasks
+
+✅ Finished....... `click the link below and work through the extra credit tasks.`
+
+<div class="grid cards" markdown>
+
+- :fontawesome-brands-raspberry-pi: [__Input/Ouput Extra Credit Tasks__](https://my.raspberrypi.org/student-login?loginChallenge=3ec3b691205040d696c6d96e8ca6379a"){:target="_blank"}
+
+</div>
           
-            
+
+
+    
 
 
 
