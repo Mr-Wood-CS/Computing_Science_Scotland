@@ -7,7 +7,7 @@ nav:
     - S2:
       - Home: BGE/S2/S2_index.md
       - Pyton Programming: 
-        - Introduction to Python: 'BGE/S2/Python_Programming/Intro_to_Python.md'
+        - Introduction to Python: 'BGE/S2/Python_Programming/1.0_Intro_to_Python.md'
         - Extra Credit Tasks: 'BGE/S2/Python_Programming/Extra_Credit_Tasks.md'
     - S3: 'BGE/S3/index.md'
     - Senior Phase: 
