@@ -1,9 +1,6 @@
 site_name: BGE and Senior Phase Computing Science
 nav:
     - Home: 'index.md'
-    - S1:
-      - Home: BGE/index.md
-      - Pyton Programming: 'BGE/S2/Intro_to_Python.md'
     - S2:
       - Home: BGE/S2/S2_index.md
       - Pyton Programming: 
@@ -80,6 +77,7 @@ theme:
 
 copyright: Copyright &copy; 2025 Pixel & Wood Code Studio
 
-
+extra_css:
+  - styles/extra.css
     
 

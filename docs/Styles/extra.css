@@ -1,0 +1,4 @@
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px; /* Adjust to your preferred roundness */
+}
