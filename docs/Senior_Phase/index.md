@@ -77,6 +77,8 @@
         * [Binary Search (Standard Algorithms )](Unit_1_SDD/4.0_Software_Implementation/L7/7.2_Binary_Search.md){:target="_blank"}
 
         * [Insertion Sort (Standard Algorithms )](Unit_1_SDD/4.0_Software_Implementation/L7/7.4_Insertation_Sort.md){:target="_blank"}
+
+        * [Object Orientated Programming](Unit_1_SDD/4.0_Software_Implementation/L7/7.5_Object_Oriented_Programming.md){:target="_blank"}
     
     === "Database Design and Development"
 
