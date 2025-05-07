@@ -1,6 +1,10 @@
 site_name: BGE and Senior Phase Computing Science
 nav:
     - Home: 'index.md'
+    - S1:
+      - Turlte Programming:
+        - Introducing the Turtle: 'BGE/Turtle_Programming/1.0_Introducing_the_Turtle.md'
+        - Movement and Colour: 'BGE/Turtle_Programming/2.0_Movement_and_Colour.md'
     - S2:
       - Home: BGE/S2/S2_index.md
       - Pyton Programming: 
