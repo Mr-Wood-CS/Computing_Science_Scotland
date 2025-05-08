@@ -1,6 +1,8 @@
 .md-typeset .admonition,
 .md-typeset details {
   border-radius: 10px; /* Adjust to your preferred roundness */
+  max-width: 800px;      /* Set to your preferred width */
+  
 }
 
 a.back-button.md-button {
