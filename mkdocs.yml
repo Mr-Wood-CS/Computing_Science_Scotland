@@ -3,9 +3,10 @@ nav:
     - Home: 'index.md'
     - S1:
       - Home: 'Homepages/2.0_S1_Home.md'
-      #- Turlte Programming:
-        #- Introducing the Turtle: 'BGE/Turtle_Programming/1.0_Introducing_the_Turtle.md'
-        #- Movement and Colour: 'BGE/Turtle_Programming/2.0_Movement_and_Colour.md'
+      - Turtle Programming: 'Levels/BGE/S1/Turtle_Programming/1.0_Home.md'
+      - Hidden Tabs:
+        - Introducing the Turtle: 'Levels/BGE/S1/Turtle_Programming/2.0_Introducing_the_Turtle.md'
+        - Movement and Colour: 'Levels/BGE/S1/Turtle_Programming/3.0_Movement_and_Colour.md'
     - S2:
       - Home: 'Homepages/3.0_S2_Home.md'
       - Python Programming: 'Levels/BGE/S2/Python_Programming/1.0_Homepage.md'
@@ -38,6 +39,7 @@ nav:
         - Traversing a 1D Array: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.9_Traversing_a_1d_Array.md'
         - Running Total within a Loop: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.10_Running_Total_Within_a_Loop.md'
         - Input Validation: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.11_Input_Validation.md'
+
       #- Computer Systems:
         #- Data Representation:
     - Higher:
