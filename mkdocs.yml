@@ -116,8 +116,8 @@ theme:
 copyright: Copyright &copy; 2025 Pixel&Wood Code Studio
 
 extra_css:
-  - styles/extra.css
+  - Styles/extra.css
 extra_javascript:
-  - scripts/extra.js
+  - Scripts/extra.js
     
 
