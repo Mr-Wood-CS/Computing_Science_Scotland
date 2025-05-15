@@ -39,11 +39,14 @@ nav:
         - Traversing a 1D Array: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.9_Traversing_a_1d_Array.md'
         - Running Total within a Loop: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.10_Running_Total_Within_a_Loop.md'
         - Input Validation: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.11_Input_Validation.md'
-
-      #- Computer Systems:
-        #- Data Representation:
     - Higher:
       - Home: 'Homepages/6.0_L6_Home.md'
+      - Unit 1 - Software Design and Development:
+        - Software Implementation: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index.md'
+      - Higher Hidden Tabs:
+        - Parallel 1D Arrays: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.1_Parallel_1D_Arrays.md'
+        - Working with Records: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.2_Records.md'
+        - Arrays of Records: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.3_Arrays_of_Records.md'
     - Advanced Higher: 
       - Home: 'Homepages/7.0_L7_Home.md'
     

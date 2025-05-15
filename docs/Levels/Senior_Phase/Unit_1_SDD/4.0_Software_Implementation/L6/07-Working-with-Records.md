@@ -1,5 +1,15 @@
 # Working with Records
 
+## Lesson Files
+
+<div class="grid cards" markdown>
+- :fontawesome-brands-python: [Cat Records](../Static/07-Working-With-Records/Cat-Records-Program.py){:download="Cat-Records-Program.py"}
+</div>
+
+<div class="grid cards" markdown>
+- :fontawesome-brands-python: [Address Book](../Static/07-Working-With-Records/Address-Book.py){:download="Address-Book.py"}
+</div>
+
 !!! info "What you need to know"
 
 	You must be able to describe, exemplify and implement records 
