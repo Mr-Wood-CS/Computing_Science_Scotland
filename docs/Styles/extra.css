@@ -58,5 +58,10 @@ a.back-button.md-button:hover {
   text-decoration: underline;
 }
 
-
+.md-typeset .tabbed-set {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
 

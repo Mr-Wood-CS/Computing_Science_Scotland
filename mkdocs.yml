@@ -4,6 +4,8 @@ nav:
     - S1:
       - Home: 'Homepages/2.0_S1_Home.md'
       - Turtle Programming: 'Levels/BGE/S1/Turtle_Programming/1.0_Home.md'
+      - Turtle Programming: 'Levels/BGE/S1/Turtle_Programming/test.md'
+
       - Hidden Tabs:
         - Introducing the Turtle: 'Levels/BGE/S1/Turtle_Programming/2.0_Introducing_the_Turtle.md'
         - Movement and Colour: 'Levels/BGE/S1/Turtle_Programming/3.0_Movement_and_Colour.md'
@@ -49,7 +51,7 @@ nav:
         - Arrays of Records: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.3_Arrays_of_Records.md'
         - Parameter Passing: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.4_Parameter_Passing.md'
         - Scope of Variables: 'Levels/Senior_phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.5_Scope_of_Variables.md'
-        - Sub-programs(Functions): 'Levels/Senior_phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.6_Sub-Programs_(Functions).md'
+        - Sub-programs(Functions): 'Levels/Senior_phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.7_Sub-Programs_(Functions).md'
         - Sub-programs(Procedures): 'Levels/Senior_phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.7_Sub-Programs_(Procedures).md'
         - Pre-defined Functions: 'Levels/Senior_phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.8_Pre-Defined_Functions.md'
         - File Handling(.csv): 'Levels/Senior_phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.9_File_Handling(.csv).md'
