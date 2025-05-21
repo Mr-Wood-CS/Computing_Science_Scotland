@@ -274,32 +274,37 @@ hide:
           ![](Images/MU_1.png){ width="300" }
         </figure>
 
-        3 - Click __save__ and save the file as __01-01-Triangle__
+        3 - Click __save__ and save the file as __02-01-Squares__
 
         <figure markdown="span">
           ![](Images/MU_2.png){ width="300" }
         </figure>
 
-        4 - A Triangle has __3 equal sides__. 
+        4 - Draw a __square__ in the __top left corner__ with a __green outline__.
 
-        5- Each side of your Triangle will be __100 steps in length.__
+        5 - Draw a __square__ in the __bottom right corner__ with a __green outline__.
 
-        6 - Each angle in your Triangle will be __120 degrees__
+        <figure markdown="span">
+        ![](Images/Turtle_17.png){ width="450" }
+        </figure>
 
-        7 - The starter code below gives you your __first 2 sides__
+        7 - The starter code below gives you your __first 2 sides__ of the square in the __top left corner__. __You__ will need to __find and enter the co-ordinates__.
 
-        ``` python title="Triangle" linenums="1" hl_lines="1 3 4 5"
+        ``` python title="Triangle" linenums="1" hl_lines="3 4 5"
         from turtle import *
 
+        penup()
+        goto(Place your co-ordinates here)
+        pendown()
+
+        color("red")
         forward(100)
-        left(120)
-        forward(100)
-        
+        left(90)
         ```
 
-        8 - Add the starter code to your file and complete the __Triangle__
+        8 - Add the starter code to your file and complete the __task__
 
-    === "Task 2 (Turing & Hopper)"
+    === "Task 2 (Hopper)"
 
          __Instructions__
 
@@ -332,18 +337,53 @@ hide:
 
         7 - Add the starter code to your file and complete the __Rectangle__
 
-    === "Task 3 (Hopper)"
+    === "Extra Credit Task 1"
 
          __Instructions__
 
-        1 - Open th __MU Editor__
+        To complete these tasks you will need the following extra bits of code:
 
-        2 - Add a __new__ file
+        ``` python title="Shape & Background Colour Fill" linenums="1" hl_lines="3 4 5 15"
+        from turtle import *
 
-        3 - __Save__ the file as __01-03-House__
+        bgcolor("skyblue")  # Change background to sky blue
+        fillcolor("yellow") # Select Fill Colour
+        begin_fill()        # Start Fill
 
-        4 - Create the image below using __Python Turtle__
+        forward(100)
+        left(90)
+        forward(100)
+        left(90)
+        forward(100)
+        left(90)
+        forward(100)
+
+        end_fill()          # Stop fill
+        ```
+        ### Pyramids pt. 1
+        
+        **Change the background to pink, draw three triangles in a row, fill each with a different colour.**
+
+        `Save this program into your computing folder as ECT-03-Pattern.py`
+
+        * All sides should be 100 Steps
+        * All angles should be 120
+        * The trinagles should be Red, Green and Blue
 
         <figure markdown="span">
-        ![](Images/Turtle_12.png){ width="150" }
+        ![](Images/Turtle_19.png){ width="450" }
+        </figure>
+
+    === "Extra Credit Task 2"
+
+        ### Pyramids pt. 2
+
+        **Draw three triangles and place these inbetween the Triangles from Task 1** 
+
+        `Save this program into your computing folder as ECT-04-Pattern.py`
+
+        * The gap between each each Trinagle should be 80 steps
+
+        <figure markdown="span">
+        ![](Images/Turtle_20.png){ width="450" }
         </figure>
