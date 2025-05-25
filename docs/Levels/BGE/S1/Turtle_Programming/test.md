@@ -387,3 +387,159 @@ hide:
         <figure markdown="span">
         ![](Images/Turtle_20.png){ width="450" }
         </figure>
+
+## <!-- Lesson Three -->
+
+??? note "Lesson Three - Loops to Create Shapes"
+
+    ## __Class Notes - Loops__
+
+    === "1 - Drawing Shapes"
+
+        Drawing shapes with Turtle is quite straightforward. 
+        
+        When creating shapes like a square, you might have noticed that the same lines of code are repeated over and over:
+
+        ``` python title="Simple Square" linenums="1" hl_lines="3 4 5 6 7 8"
+        from turtle import *
+
+        forward (100)
+        left(90)
+        forward (100)
+        left(90)
+        forward (100)
+        left(90)
+        ```
+    === "2 - Using Loops"
+
+        However, it becomes easier and faster when you use a loop.
+
+        __Example__
+        
+        Instead of writing the same lines of code multiple times to create a square, we can use a loop and make our code cleaner:
+
+        ``` python title="Simple Square using a Loop" linenums="1" hl_lines="3 4 5"
+        from turtle import *
+
+        for i in range(4):
+          forward (100)
+          left(90)
+        ```
+
+        💡 __Notice the diffrence?__
+
+        In the code above __line 3 (highlighted)__ tells the program how many times it is to __loop__ 
+
+        To change how many times it loops you change the number in the __brackets ( )__
+
+
+    === "3 - Creating Circles"
+
+        When creating circles we don't use a loop, we use the circle keyword. 
+
+        __This keyword has a built in loop that we cant see.__
+
+        ``` python title="Creating Circles" linenums="1" hl_lines="3"
+        from turtle import *
+            
+        circle(100)
+        
+        # Note: The number in brackets is the radius size – so, the bigger the number, the bigger the circle.
+        ```
+
+    === "4 - Finding the Angle"
+
+        When we are creating shapes we will need to find each internal angle.
+
+        To this is all we have to do is __divide the number of sides the shape has by 360__
+
+        A __Hexagon__ has __6 sides__
+
+        To find the angle we use the sum:
+
+        __360 / 6 = 60__
+
+        The code to create a Hexagon is:
+
+        ``` python title="Hexagon" linenums="1" hl_lines="3 4 5"
+        from turtle import *
+
+        for i in range(6): # We loop 6 times because a Hexagon has 6 sides
+          forward(100)     # Each side of our Hexagon will bee 100 steps long
+          left(60)         # This is the angle from our sum above
+        ```
+
+    ## __Pupil Tasks__
+
+    === "Task 1 (Turing & Hopper)"
+
+        __Instructions__
+
+        1 - Open th __MU Editor__
+
+        2 - Add a new file
+
+        <figure markdown="span">
+          ![](Images/MU_1.png){ width="300" }
+        </figure>
+
+        3 - Click __save__ and save the file as __02-01-Squares__
+
+        <figure markdown="span">
+          ![](Images/MU_2.png){ width="300" }
+        </figure>
+
+         - The starter code below gives you your __first 2 sides__ of the square in the __top left corner__. __You__ will need to __find and enter the co-ordinates__.
+
+        ``` python title="Triangle" linenums="1" hl_lines="3 4 5"
+        
+        ```
+
+        8 - Add the starter code to your file and complete the __task__
+
+    === "Task 2 (Turing & Hopper)"
+
+         __Instructions__
+
+        1 - Open th __MU Editor__
+
+        2 - Add a new file
+
+        <figure markdown="span">
+          ![](Images/MU_1.png){ width="300" }
+        </figure>
+
+        3 - Click __save__ and save the file as __01-02-Rectangle__
+
+        <figure markdown="span">
+          ![](Images/MU_2.png){ width="300" }
+        </figure>
+
+        ``` python title="Triangle" linenums="1" hl_lines="1 3"
+        
+        ```
+
+        7 - Add the starter code to your file and complete the __Rectangle__
+
+    === "Task 3 (Hopper)"
+
+         __Instructions__
+
+         1 - Open th __MU Editor__
+
+         2 - Add a new file
+
+         3 - Click __save__ and save the file as __01-02-Rectangle__
+
+
+    === "Task 4 (Hopper)"
+
+        __Instructions__
+
+         1 - Open th __MU Editor__
+
+         2 - Add a new file
+
+         3 - Click __save__ and save the file as __01-02-Rectangle__
+
+        
