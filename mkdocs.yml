@@ -19,8 +19,10 @@ nav:
       - MakeCode Arcade: 
         - Space Invaders: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/space_invaders_index.md'
       - Hidden Tabs:
+        - Lesson Tiles: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons.md'
         - 01 - Setting up the Player: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/1.0_Setting_up_the_Player.md'
         - 02 - Shooting Lasers: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/2.0_Shooting_Lasers.md'
+        - 03 - Adding Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/3.0_Adding_Enemies.md'
     - National 4/5 Computing Science:
       - " ": 'Homepages/5.0_L5_Home.md'
       - Unit 1 - Software Design and Development: 
@@ -30,6 +32,7 @@ nav:
         - Software Implementation: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.0_Home.md'
         - Testing: 'Levels/Senior_Phase/Unit_1_SDD/5.0_Testing/L5/5.0_Home.md'
         - Evaluation: 'Levels/Senior_Phase/Unit_1_SDD/6.0_Evaluation/L5/5.0_Home.md'
+        
       - Unit 2 - Computer Systems:
         - Data Representation: 'Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/5.0_Home.md'
         - Computer Architecture: 'Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/5.0_Home.md'
