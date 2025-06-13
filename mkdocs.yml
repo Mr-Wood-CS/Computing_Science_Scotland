@@ -23,6 +23,7 @@ nav:
         - 01 - Setting up the Player: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/1.0_Setting_up_the_Player.md'
         - 02 - Shooting Lasers: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/2.0_Shooting_Lasers.md'
         - 03 - Adding Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/3.0_Adding_Enemies.md'
+        - 04 - Spawning Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/4.0_Spawning_Enemies.md'
     - National 4/5 Computing Science:
       - " ": 'Homepages/5.0_L5_Home.md'
       - Unit 1 - Software Design and Development: 
@@ -146,7 +147,8 @@ copyright: Copyright &copy; 2025 Pixel&Wood Code Studio
 
 extra_css:
   - Styles/extra.css
+
 extra_javascript:
-  - Scripts/extra.js
+  - scripts/extra.js
     
 

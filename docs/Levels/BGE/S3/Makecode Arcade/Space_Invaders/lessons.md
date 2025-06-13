@@ -22,4 +22,10 @@
 
     [:octicons-arrow-right-24: Start Lesson](3.0_Adding_Enemies.md)
 
+-   __04 - 👾🕹️ Spawning the Enemy__
+
+    ---
+
+    [:octicons-arrow-right-24: Start Lesson](4.0_Spawning_Enemies.md)
+
 </div>
