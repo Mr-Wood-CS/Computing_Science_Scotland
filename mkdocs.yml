@@ -74,7 +74,11 @@ nav:
         - Algorithms(Count Occurances): 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.13_Algorithms_(Count_Occurances).md'
     - Advanced Higher Computing Science: 
       - Home: 'Homepages/7.0_L7_Home.md'
-    
+      - Unit 1 - Software Development:
+        - Analysis: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.0_index.md'
+      - Hidden Tabs:
+        - Economic: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1_Economic.md'
+        - Economic: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.2_Time.md'
 
 markdown_extensions:
       - admonition

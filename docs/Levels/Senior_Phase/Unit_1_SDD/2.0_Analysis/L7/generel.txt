@@ -1,0 +1,11 @@
+#### ⚖️ Legal Feasibility
+> Will the new system comply with laws and regulations?
+
+**Example**:  
+A customer database must follow the Data Protection Act (GDPR).
+
+#### 🖥️ Technical Feasibility
+> Does the organisation have the hardware, software, and skills to support the system?
+
+**Example**:  
+A company with only Windows PCs might struggle to run a new Mac-only application.

@@ -65,3 +65,8 @@ a.back-button.md-button:hover {
   margin-bottom: 1em;
 }
 
+.md-sidebar--secondary {
+  display: block !important;      /* Forces the sidebar to display */
+  visibility: hidden;             /* Hides content but keeps space */
+  width: 10rem;                   /* Same width as normal ToC */
+}
