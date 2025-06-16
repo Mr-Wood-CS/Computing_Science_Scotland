@@ -56,9 +56,10 @@ nav:
       - " ": 'Homepages/6.0_L6_Home.md'
       - Unit 1 - Software Design and Development:
         - Development Methodologies: 'Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.0_index.md'
+        
+      - Higher Hidden Tabs:
         - Analysis: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L6/6.0_index.md'
         - Software Implementation: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index.md'
-      - Higher Hidden Tabs:
         - Parallel 1D Arrays: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.1_Parallel_1D_Arrays.md'
         - Working with Records: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.2_Records.md'
         - Arrays of Records: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.3_Arrays_of_Records.md'
@@ -77,8 +78,9 @@ nav:
       - Unit 1 - Software Development:
         - Analysis: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.0_index.md'
       - Hidden Tabs:
-        - Economic: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1_Economic.md'
-        - Economic: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.2_Time.md'
+        - Feasability Studies: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1_Feasability_Studies.md'
+        - Economic: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.1_Economic.md'
+        - Time: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.2_Time.md'
 
 markdown_extensions:
       - admonition
