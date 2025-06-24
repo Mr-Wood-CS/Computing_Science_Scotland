@@ -18,13 +18,13 @@ nav:
       - Home: 'Homepages/4.0_S3_Home.md'
       - MakeCode Arcade: 
         - Space Invaders: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/space_invaders_index.md'
-        #- 05 - Killing Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/5.0_Destroying_Enemies.md'
       - Hidden Tabs:
         - Lesson Tiles: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons.md'
         - 01 - Setting up the Player: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/1.0_Setting_up_the_Player.md'
         - 02 - Shooting Lasers: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/2.0_Shooting_Lasers.md'
         - 03 - Adding Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/3.0_Adding_Enemies.md'
         - 04 - Spawning Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/4.0_Spawning_Enemies.md'
+        - 05 - Adding the Bonus: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/5.0_Adding_the_Bonus.md'
     - National 4/5 Computing Science:
       - " ": 'Homepages/5.0_L5_Home.md'
       - Unit 1 - Software Design and Development: 

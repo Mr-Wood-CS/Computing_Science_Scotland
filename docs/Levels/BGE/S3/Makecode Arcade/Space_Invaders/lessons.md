@@ -28,4 +28,10 @@
 
     [:octicons-arrow-right-24: Start Lesson](4.0_Spawning_Enemies.md)
 
+-   __05 - 👾🕹️ Adding the Bonus__
+
+    ---
+
+    [:octicons-arrow-right-24: Start Lesson](5.0_Adding_the__Bonus.md)
+
 </div>
