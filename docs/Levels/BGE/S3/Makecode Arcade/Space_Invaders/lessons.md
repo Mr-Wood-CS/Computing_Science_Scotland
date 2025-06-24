@@ -22,16 +22,16 @@
 
     [:octicons-arrow-right-24: Start Lesson](3.0_Adding_Enemies.md)
 
--   __04 - 👾🕹️ Spawning the Enemy__
+-   __04 - 👶 Spawning the Enemy__
 
     ---
 
     [:octicons-arrow-right-24: Start Lesson](4.0_Spawning_Enemies.md)
 
--   __05 - 👾🕹️ Adding the Bonus__
+-   __05 - ⬆️⓵ Adding the Bonus__
 
     ---
 
-    [:octicons-arrow-right-24: Start Lesson](5.0_Adding_the__Bonus.md)
+    [:octicons-arrow-right-24: Start Lesson](5.0_Adding_the_Bonus.md)
 
 </div>
