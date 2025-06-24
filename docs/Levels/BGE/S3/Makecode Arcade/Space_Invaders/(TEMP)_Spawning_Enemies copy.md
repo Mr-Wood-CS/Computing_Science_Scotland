@@ -1,30 +1,8 @@
-# 💥 Lesson 4: Destroying Enemies
-
-🎯 Goal
-
-
-
-✅ Steps
-
-In ||sprites:Sprites||, use on projectile of kind Projectile overlaps enemy of kind Enemy.
-
-Inside it:
-
-Use destroy enemy.
-
-Add info.changeScoreBy(1) to increase score.
-
-Optional: Add a visual effect (like fire or spray).
-
-🧪 Checkpoint
-
-Enemies disappear and score increases when hit by lasers.
-
-# 👾 05 - Destroying Enemies
+# 👾 04 - Spawning the Enemy
 
 === "🕹️ Introduction"
 
-    In this lesson, 
+    In this lesson, you’ll will start to make your game come alive. You will be learning how to make the enemy sprites fall using variables, an array, random and logic statements to make the enemy spawn at different places in your game screen.
 
     You’ll learn how to:
 
@@ -38,40 +16,9 @@ Enemies disappear and score increases when hit by lasers.
 
     🎯 Success Criteria:
 
-    Destroy enemies when hit by a laser.
-
-    Note: To make our program work as it should, we will need to change some of our previously created code.
+    Create enemy that falls from the top of the screen.
 
     ✅ Instructions
-
-    1 - Open MakeCode Arcade.
-
-    2 - Open your __Space Invaders__ project.
-
-    3 - In the __Variables__ section, select __Make a Variable__. Name the new variable __counted__:
-
-    4 - From the __Variables__ section grab a __set 'variable name' to 0__ and add it to the top of your __on start__ block: 
-
-    <figure markdown="span">
-    ![Image title](Images/05_01.png){ width="400" }
-    <figcaption></figcaption>
-    </figure>
-    
-    🚨 Change the __variable name__ to __counted__ by clicking on the little arrow
-    
-    5 - In the __Logic__ section grab a __false__ block and add it to the __0__ of your __set counted to__ block:
-
-    <figure markdown="span">
-    ![Image title](Images/05_02.png){ width="400" }
-    <figcaption></figcaption>
-    </figure>
-
-    6 - In the __Logic__ section drag out __if true then__ and add it below your __change count by 1__ block in your __enemyFall__ Function:
-
-    <figure markdown="span">
-    ![Image title](Images/05_03.png){ width="600" }
-    <figcaption></figcaption>
-    </figure>
 
     1 - Open MakeCode Arcade.
 
