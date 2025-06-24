@@ -18,7 +18,7 @@ nav:
       - Home: 'Homepages/4.0_S3_Home.md'
       - MakeCode Arcade: 
         - Space Invaders: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/space_invaders_index.md'
-        - 05 - Killing Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/5.0_Destroying_Enemies.md'
+        #- 05 - Killing Enemies: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/5.0_Destroying_Enemies.md'
       - Hidden Tabs:
         - Lesson Tiles: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons.md'
         - 01 - Setting up the Player: 'Levels/BGE/S3/Makecode Arcade/Space_Invaders/1.0_Setting_up_the_Player.md'
