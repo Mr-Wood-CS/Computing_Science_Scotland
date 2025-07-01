@@ -92,7 +92,16 @@
     
     
     
-  </head>
+   <link href="../../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -184,43 +193,6 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -1923,6 +1895,8 @@
       
         
       
+        
+      
     
     
       
@@ -1983,6 +1957,8 @@
   
     
     
+      
+        
       
         
       
@@ -2061,6 +2037,98 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.0_index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Unit 3 - Database Design and Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Unit 3 - Database Design and Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../Senior_Phase/Unit_3_DDD/2.0_Analysis/L6/6.0_index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2108,6 +2176,8 @@
       
         
       
+        
+      
     
     
       
@@ -2118,10 +2188,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
         
           
-          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2132,8 +2202,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
             Higher Hidden Tabs
           </label>
@@ -2151,6 +2221,27 @@
   
   <span class="md-ellipsis">
     Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.1_Structure_Diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Structure Diagrams
   </span>
   
 
@@ -2832,47 +2923,47 @@
 <p>3 - In the <strong>Variables</strong> section select <strong>Make a Variable</strong> and name the variable <strong>counted</strong></p>
 <p>4 - In the <strong>Variables</strong> section grab a <strong>set 'variable name' to 0</strong> and add it to the top of your <strong>on start</strong> block: </p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_01.png" width="500" />
+<a class="glightbox" href="../Images/04_01.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_01.png" width="500" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>🚨 Change the <strong>variable name</strong> to <strong>counted</strong> by clicking on the little arrow</p>
 <p>5 - In the <strong>Logic</strong> section grab a <strong>false</strong> block and add it to the <strong>0</strong> of your <strong>set counted to</strong> block:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_03.png" width="500" />
+<a class="glightbox" href="../Images/04_03.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_03.png" width="500" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>6 - In the <strong>Logic</strong> section drag out <strong>if true then</strong> and add it below the <strong>change count by 1</strong> in your <strong>enemyFall</strong> Function:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_04.png" width="500" />
+<a class="glightbox" href="../Images/04_04.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_04.png" width="500" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>7 - In the <strong>Sprites</strong> section out drag out <strong>Set mySprite to kind player</strong> and add it to your <strong>if true then</strong> block</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_03.png" width="500" />
+<a class="glightbox" href="../Images/04_03.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_03.png" width="500" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>🚨 Change the <strong>mySprite</strong> to <strong>randomEnemy</strong> by clicking on the little arrow</p>
 <p>🚨 Change the of kind <strong>Player</strong> to <strong>Enemy</strong> by clicking on the little arrow</p>
 <p>7 - In the <strong>Advanced</strong> section, select <strong>Arrays</strong>:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/03_03_Section_Advanced_Arrays.png" width="200" />
+<a class="glightbox" href="../Images/03_03_Section_Advanced_Arrays.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/03_03_Section_Advanced_Arrays.png" width="200" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>And drag out a <strong>get random value from list</strong> and add it to the <strong>grey square</strong>:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="Images/04_05.png" width="600" />
+<a class="glightbox" href="Images/04_05.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="Images/04_05.png" width="600" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>6 - In the <strong>Sprites</strong> section drag a <strong>set mySprite auto destroy <off></strong> and add it to the bottom of your <strong>enemyFall</strong> Function:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_06.png" width="600" />
+<a class="glightbox" href="../Images/04_06.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_06.png" width="600" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>🚨 Change <strong>auto destroy</strong> to <strong>invisible</strong> by clicking on the little arrow</p>
 <p>🚨 Change the slider from <strong>OFF</strong> to <strong>ON</strong></p>
 <p>7 - In the <strong>Sprites</strong> section out drag out <strong>Set mySprite x to 0</strong> and add it to the bottom of your <strong>enemyFall</strong> Function::</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_07.png" width="600" />
+<a class="glightbox" href="../Images/04_07.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_07.png" width="600" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>🚨 Change  <strong>my sprite</strong> to <strong>randomEnemy</strong></p>
@@ -2880,25 +2971,25 @@
 <p>🚨 Change the <strong>vy (velocity y)</strong> to 60</p>
 <p>8 - In the <strong>Game</strong> section drag out <strong>on game update every 500ms</strong> and add it to your <strong>workspace</strong>:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_08.png" width="350" />
+<a class="glightbox" href="../Images/04_08.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_08.png" width="350" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>🚨 Change <strong>500 ms</strong> to <strong>200 ms</strong> by clicking on the little arrow</p>
 <p>9 - In the <strong>Logic</strong> section drag out <strong>if <true> then</strong> and add it to your <strong>on game update</strong> block:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_09.png" width="300" />
+<a class="glightbox" href="../Images/04_09.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_09.png" width="300" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>11 - In the <strong>Logic</strong> section drag out <strong>&lt; 0 = 0 &gt;</strong> and add it to your <strong>if <true> then</strong> block:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_10.png" width="300" />
+<a class="glightbox" href="../Images/04_10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_10.png" width="300" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>🚨 Change <strong>=</strong> to <strong>&gt;</strong> by clicking on the little arrow</p>
 <p>🚨 Change the 2nd <strong>0</strong> to <strong>120</strong></p>
 <p>12 - In the <strong>Sprites</strong> section drag out <strong>mySprite x</strong> and add it to the first <strong>0</strong>:</p>
 <p><figure markdown="span">
-<img alt="Image title" src="../Images/04_11.png" width="400" />
+<a class="glightbox" href="../Images/04_11.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_11.png" width="400" /></a>
 <figcaption></figcaption>
 </figure></p>
 <p>🚨 Change <strong>mySprite</strong> to <strong>randomEnemy</strong> by clicking on the little arrow</p>
@@ -2906,37 +2997,37 @@
 <p>13 - From the <strong>enemyFall</strong> function find the code block below and duplicate it:</p>
 <p>🚨 To duplicate a block right click on the block and select <strong>duplicate</strong>.</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_12.png" width="700" /></p>
+<p><a class="glightbox" href="../Images/04_12.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_12.png" width="700" /></a></p>
 </figure>
 <p>add the duplicated block to your <strong>if</strong> block:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_13.png" width="700" /></p>
+<p><a class="glightbox" href="../Images/04_13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_13.png" width="700" /></a></p>
 </figure>
 <p>14 - In the <strong>Sprites</strong> section drag out <strong>set my sprite posistion to x: 0 y: 0</strong> and add it to your <strong>if</strong> block:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_14.png" width="700" /></p>
+<p><a class="glightbox" href="../Images/04_14.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_14.png" width="700" /></a></p>
 </figure>
 <p>🚨 Change <strong>mySprite</strong> to <strong>randomEnemy</strong> by clicking on the little arrow</p>
 <p>15 - In the <strong>Math</strong> section drag out <strong>pick random 0 to 0</strong> and add it to the <strong>x co-ordinate</strong> in the <strong>set random enemy</strong> block:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_15.png" width="700" /></p>
+<p><a class="glightbox" href="../Images/04_15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_15.png" width="700" /></a></p>
 </figure>
 <p>🚨 Keep the 1st number as <strong>0</strong> and set the 2nd number to <strong>120</strong> </p>
 <p>16 - Find this block in your <strong>enemyFall</strong> Function and duplicate it:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_16.png" width="700" /></p>
+<p><a class="glightbox" href="../Images/04_16.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_16.png" width="700" /></a></p>
 </figure>
 <p>14 - Add your duplicated block to your <strong>if......then</strong> block:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_17.png" width="700" /></p>
+<p><a class="glightbox" href="../Images/04_17.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_17.png" width="700" /></a></p>
 </figure>
 <p>15 - Add your duplicated block to your <strong>if......then</strong> block:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_17.png" width="700" /></p>
+<p><a class="glightbox" href="../Images/04_17.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_17.png" width="700" /></a></p>
 </figure>
 <p>16 - Finally, in <strong>Functions</strong> grab a <strong>call enemyFall</strong> block and add it to the bottom of your start block:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_18.png" width="450" /></p>
+<p><a class="glightbox" href="../Images/04_18.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_18.png" width="450" /></a></p>
 </figure>
 <p>🧪 Checkpoint</p>
 <p>You will now be able to spawn random enemy in a controlled manner.</p>
@@ -2979,19 +3070,19 @@
 </li>
 </ol>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_19.png" width="600" /></p>
+<p><a class="glightbox" href="../Images/04_19.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_19.png" width="600" /></a></p>
 </figure>
 <ol>
 <li>Using  the <strong>count variable</strong> you have just created, see if you can work out how to make your <strong>bonusEnemy</strong>  fall when the <strong>count variable</strong> reaches the number 5.</li>
 </ol>
 <p>🚨 Hint: you will need one of these: </p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_20.png" width="200" /></p>
+<p><a class="glightbox" href="../Images/04_20.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_20.png" width="200" /></a></p>
 </figure>
 <p>🌶️🌶️🌶️ Extra Challenge:</p>
 <p>Using the blocks below make your bonus enemy fall whenever your <strong>count divided by 5 = 0 (doesn't have a remainder)</strong>:</p>
 <figure markdown="span">
-<p><img alt="Image title" src="../Images/04_21.png" width="200" /></p>
+<p><a class="glightbox" href="../Images/04_21.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../Images/04_21.png" width="200" /></a></p>
 </figure>
 <p>This is a <strong>math function</strong> called <strong>modulo</strong> </p>
 <p><strong>Modulo</strong> is a key component in computing programming.</p>
@@ -3064,5 +3155,7 @@
         <script src="../../../../../../scripts/extra.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

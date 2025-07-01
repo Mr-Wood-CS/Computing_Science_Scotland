@@ -61,10 +61,13 @@ nav:
       - Unit 1 - Software Design and Development:
         - Development Methodologies: 'Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.0_index.md'
         - Analysis: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L6/6.0_index.md'
-        
+        - Design: 'Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.0_index.md'
+      - Unit 3 - Database Design and Development:
+        - Analysis: 'Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L6/6.0_index.md'
         
       - Higher Hidden Tabs:
         - Analysis: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L6/6.0_index.md'
+        - Structure Diagrams: 'Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.1_Structure_Diagrams.md'
         - Software Implementation: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index.md'
         - Parallel 1D Arrays: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.1_Parallel_1D_Arrays.md'
         - Working with Records: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.2_Records.md'
@@ -156,6 +159,8 @@ theme:
     - navigation.path
     #- navigation.footer
     - navigation.tabs
+plugins:
+  - glightbox
 
 copyright: Copyright &copy; 2025 Pixel&Wood Code Studio
 

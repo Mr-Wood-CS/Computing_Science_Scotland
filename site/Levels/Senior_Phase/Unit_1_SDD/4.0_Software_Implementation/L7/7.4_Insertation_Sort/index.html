@@ -92,7 +92,16 @@
     
     
     
-  </head>
+   <link href="../../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -184,43 +193,6 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -1923,6 +1895,8 @@
       
         
       
+        
+      
     
     
       
@@ -1983,6 +1957,8 @@
   
     
     
+      
+        
       
         
       
@@ -2061,6 +2037,98 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3.0_Design/L6/6.0_index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Unit 3 - Database Design and Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Unit 3 - Database Design and Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Unit_3_DDD/2.0_Analysis/L6/6.0_index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2108,6 +2176,8 @@
       
         
       
+        
+      
     
     
       
@@ -2118,10 +2188,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
         
           
-          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2132,8 +2202,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
             Higher Hidden Tabs
           </label>
@@ -2151,6 +2221,27 @@
   
   <span class="md-ellipsis">
     Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3.0_Design/L6/6.1_Structure_Diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Structure Diagrams
   </span>
   
 
@@ -2889,16 +2980,16 @@
 <p>Each element is compared to the elements before in turn, working backwards down the list.  Values are swapped until the element being compared is placed in order</p>
 <p>Consider the following  array</p>
 <figure>
-  <img alt="img 1" src="../Images/Insertion-Sort/Insertion-Sort-1.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 1" src="../Images/Insertion-Sort/Insertion-Sort-1.png" width="800" /></a>
 </figure>
 <h3 id="insertion-sort-iteration-1">Insertion Sort - Iteration 1</h3>
 <p>Start with element 1 of the list to be sorted.  <strong>This value is temporarily stored</strong>.</p>
 <figure>
-  <img alt="img 2" src="../Images/Insertion-Sort/Insertion-Sort-2.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 2" src="../Images/Insertion-Sort/Insertion-Sort-2.png" width="800" /></a>
 </figure>
 <p>If the temp value is smaller than the value before it (element 0), then the value before it, is copied to the right (element 1).</p>
 <figure>
-  <img alt="img 3" src="../Images/Insertion-Sort/Insertion-Sort-3.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 3" src="../Images/Insertion-Sort/Insertion-Sort-3.png" width="800" /></a>
 </figure>
 <p>Each value, to the left of the element (<strong>where the temp value was originally stored</strong>) is compared until :</p>
 <ul>
@@ -2911,25 +3002,25 @@
 </ul>
 <p>When either of the above is true, the temp value is copied back into the list at the previous position.</p>
 <figure>
-  <img alt="img 4" src="../Images/Insertion-Sort/Insertion-Sort-4.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 4" src="../Images/Insertion-Sort/Insertion-Sort-4.png" width="800" /></a>
 </figure>
 <h3 id="insertion-sort-iteration-2">Insertion Sort - Iteration 2</h3>
 <p>The next value (<strong>99</strong>) is copied into the temp.</p>
 <figure>
-  <img alt="img 5" src="../Images/Insertion-Sort/Insertion-Sort-5.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 5" src="../Images/Insertion-Sort/Insertion-Sort-5.png" width="800" /></a>
 </figure>
 <p>When the next value (<strong>99</strong>) is examined, the value before it (<strong>45</strong>) is smaller, <strong>so no further action is required</strong></p>
 <figure>
-  <img alt="img 6" src="../Images/Insertion-Sort/Insertion-Sort-6.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 6" src="../Images/Insertion-Sort/Insertion-Sort-6.png" width="800" /></a>
 </figure>
 <h3 id="insertion-sort-iteration-3">Insertion Sort - Iteration 3</h3>
 <p>The next value (7) is copied into the temp.</p>
 <figure>
-  <img alt="img 7" src="../Images/Insertion-Sort/Insertion-Sort-1.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 7" src="../Images/Insertion-Sort/Insertion-Sort-1.png" width="800" /></a>
 </figure>
 <p>When the temp value (7) is compared with element 2 (<strong>99</strong>) , it is smaller so <strong>99</strong> is copied into <strong>element 3</strong></p>
 <figure>
-  <img alt="img 8" src="../Images/Insertion-Sort/Insertion-Sort-8.png" width="800" />
+  <a class="glightbox" href="../Images/Insertion-Sort/Insertion-Sort-8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img 8" src="../Images/Insertion-Sort/Insertion-Sort-8.png" width="800" /></a>
 </figure>
 <p>When the temp value (7) is compared with element 1 (<strong>45</strong>), it is smaller so 45 is copied into element 2</p>
 <h2 id="insertion-sort-1d-arrays">Insertion Sort (1D Arrays)</h2>
@@ -3160,5 +3251,7 @@
         <script src="../../../../../../scripts/extra.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../../../2.0_Analysis/L6/6.0_index/">
+      
+      
+        <link rel="next" href="../../../4.0_Software_Implementation/L6/6.0_index/">
       
       
       <link rel="icon" href="../../../../../../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>Main Algorithm and Refinements - BGE and Senior Phase Computing Science</title>
+        <title>Structure Diagrams - BGE and Senior Phase Computing Science</title>
       
     
     
@@ -92,7 +96,16 @@
     
     
     
-  </head>
+   <link href="../../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -111,7 +124,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#main-algorithm-and-refinements" class="md-skip">
+        <a href="#structure-diagrams" class="md-skip">
           Skip to content
         </a>
       
@@ -147,7 +160,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Main Algorithm and Refinements
+              Structure Diagrams
             
           </span>
         </div>
@@ -184,43 +197,6 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -331,10 +307,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../../../../../Homepages/6.0_L6_Home/" class="md-tabs__link">
           
   
@@ -384,6 +362,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -1912,8 +1892,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1923,20 +1905,25 @@
       
         
       
-    
-    
-      
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1947,7 +1934,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Higher Computing Science
@@ -1983,6 +1970,8 @@
   
     
     
+      
+        
       
         
       
@@ -2061,6 +2050,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.0_index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2077,34 +2087,6 @@
   
     
     
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -2125,7 +2107,7 @@
             
   
   <span class="md-ellipsis">
-    Higher Hidden Tabs
+    Unit 3 - Database Design and Development
   </span>
   
 
@@ -2134,6 +2116,109 @@
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Unit 3 - Database Design and Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Unit_3_DDD/2.0_Analysis/L6/6.0_index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Higher Hidden Tabs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
             Higher Hidden Tabs
           </label>
@@ -2155,6 +2240,112 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Structure Diagrams
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Structure Diagrams
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-structure-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a Structure Diagram?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-structure-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Structure Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refinement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2785,7 +2976,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -2796,6 +2989,59 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-structure-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a Structure Diagram?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-structure-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Structure Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refinement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2810,52 +3056,81 @@
                   
 
 
-<h1 id="main-algorithm-and-refinements">Main Algorithm and Refinements</h1>
-<p>The main algorithm is also known as the top-level design.</p>
-<p>The example on the previous page is the main algorithm, it shows the main steps of the program, but not the detail of how each step works.</p>
-<p>We could list the same algorithm as numbered lines of pseudocode. This is the main algorithm. </p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>1.0 Read song data from text file
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>2.0 Count number of downloads for each song
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>3.0 Find song with most downloads
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>4.0 Display song info
-</span></code></pre></div>
+<h1 id="structure-diagrams">Structure Diagrams</h1>
+<div class="admonition info">
+<p class="admonition-title">What You Need to Know</p>
+<p><strong>You must be able to</strong> read, interpret, and implement efficient design solutions to problems, demonstrating the ability to:</p>
+<ul>
+<li>Create and understand <strong>structure diagrams</strong></li>
+<li>Identify and apply <strong>top-level design</strong></li>
+<li>Illustrate the <strong>flow of data</strong> between components</li>
+<li>Use <strong>stepwise refinement</strong> to break down problems into manageable sub-tasks</li>
+</ul>
+</div>
+<p><center></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1Kd9ji1b-nI?si=R6Ne-OpBshpYifjR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p></center></p>
+<h2 id="what-is-a-structure-diagram">What is a Structure Diagram?</h2>
+<p>A structure diagram is a visual tool used during the design stage to break a program into smaller, manageable modules (also called sub-programs). Each module handles a specific task in the overall algorithm.</p>
+<p>This is part of a <strong>top-down design</strong> approach, known as <strong>modular programming</strong>. It helps developers:</p>
+<ul>
+<li>Focus on one part of the program at a time</li>
+<li>Reuse and test individual modules</li>
+<li>Work in teams, where each member can be assigned different modules</li>
+</ul>
+<p>Top-down design means breaking the problem into successively smaller sub-tasks — each represented as a module.</p>
+<h2 id="example-structure-diagram">Example Structure Diagram</h2>
+<p>Below is a structure diagram for a program that finds and displays the most-downloaded song on a streaming platform:</p>
+<figure>
+  <a class="glightbox" href="../Images/SD_Structure_Diagram_01.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Structure Diagram Example" src="../Images/SD_Structure_Diagram_01.svg" width="1200" /></a>
+</figure>
+<p>Each box represents a module. The box at the top is known as the <strong>top-level design</strong> — it outlines the main steps of the algorithm.</p>
+<h2 id="data-flow">Data Flow</h2>
+<p><strong>Data flow</strong> describes how values are passed between modules. For example:</p>
+<ul>
+<li>
+<p>Module 1 reads song data → passes it to Module 2</p>
+</li>
+<li>
+<p>Module 2 counts downloads → passes results to Module 3</p>
+</li>
+<li>
+<p>Module 3 identifies the most popular song → passes details to Module 4</p>
+</li>
+</ul>
+<p>You can show data flow in two ways:</p>
+<p>1 - With <strong>arrows</strong> on a structure diagram</p>
+<figure>
+  <a class="glightbox" href="../Images/SD_Data_Flow.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Structure Diagram with Data Flow" src="../Images/SD_Data_Flow.svg" width="800" /></a>
+</figure>
+<ul>
+<li>Arrows pointing <strong>into</strong> a module show <strong>incoming data</strong></li>
+<li>Arrows pointing <strong>out</strong> of a module show <strong>outgoing data</strong></li>
+</ul>
+<p>2 - In a <strong>data flow table</strong></p>
+<figure>
+  <a class="glightbox" href="../Images/SD_Data_Flow_Table.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Data Flow Table" src="../Images/SD_Data_Flow_Table.png" width="450" /></a>
+</figure>
 <div class="admonition warning">
 <p class="admonition-title">Important</p>
-<p>Write your main algorithm first when implementing, then you can fill in the details for each step.</p>
-<p>These details are known as refinements. </p>
+<p>Input from a user or reading/writing a file is <em>not</em> considered data flow.
+Data flow only refers to values passed <em>between modules</em>.</p>
 </div>
-<p><code>Step 3</code> from the algorithm above tells us to <strong>find the song with the most downloads</strong>. </p>
-<p>We can assume that, by this point, we have an array of songs, telling us how many downloads each song has. </p>
-<p>We can refine step 3 to write detailed pseudocode that says how to do this:</p>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>3.1 Set most popular to first song in the list
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>3.2 Loop for the number of songs
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>3.3        If popularity of song is &gt; popularity of most popular
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>3.4              Set most popular to current song
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>3.5        End if
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>3.6 End loop
-</span></code></pre></div>
-Don’t worry too much about how the algorithm above works, the important thing is that it refines step 3 by adding the detail of how this module will work.</p>
-<div class="admonition question">
-<p class="admonition-title">Example Question</p>
-<p>Q1 - Read the main algorithm below</p>
-<p>Main Algorithm:</p>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>1.0 Load password data from file
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>2.0 Ask user to enter a valid password
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>3.0 Check if user password is in the file data
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>4.0 Output whether password has been changed
-</span></code></pre></div>
-Step 2 could be refined further.</p>
-<p>Refine step 2 below.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>2.1 Ask user to enter password
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>2.2 While password is not valid 
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>2.3        Display error message
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>2.4        Ask user to enter password again
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>2.5 End while loop
-</span></code></pre></div>
-</div>
+<h2 id="refinement">Refinement</h2>
+<p>Each module in the structure diagram can be broken down using <strong>stepwise refinement</strong> — describing more detailed sub-tasks for implementation.</p>
+<p>For example, the module 'Find song with most downloads' could be broken into steps like: set a starting value, compare downloads, and store the result. This level of detail helps when turning the design into code.</p>
+<figure>
+  <a class="glightbox" href="../Images/SD_Refinements.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Data Flow Table" src="../Images/SD_Refinements.svg" width="800" /></a>
+</figure>
+<h2 id="summary">Summary</h2>
+<p>Structure diagrams help you:</p>
+<ul>
+<li>Break a program into logical modules</li>
+<li>Apply a top-down design by identifying the top-level structure and refining it step by step</li>
+<li>Represent the flow of data between modules using arrows or data flow tables</li>
+<li>Prepare for writing refined pseudocode</li>
+</ul>
+<p><a class="md-button" href="../6.0_index/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.78 19.03a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06l6.25-6.25a.749.749 0 0 1 1.275.326.75.75 0 0 1-.215.734L5.81 11.5h14.44a.75.75 0 0 1 0 1.5H5.81l4.97 4.97a.75.75 0 0 1 0 1.06"/></svg></span> Back</a></p>
 
 
 
@@ -2863,8 +3138,13 @@ Step 2 could be refined further.</p>
 
 
 
+  
+  
 
 
+
+
+  
 
 
 
@@ -2920,5 +3200,7 @@ Step 2 could be refined further.</p>
         <script src="../../../../../../scripts/extra.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

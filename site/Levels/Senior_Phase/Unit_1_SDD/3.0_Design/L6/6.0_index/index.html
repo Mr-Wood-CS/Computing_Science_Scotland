@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../../../2.0_Analysis/L6/6.0_index/">
+      
+      
+        <link rel="next" href="../../../../Unit_3_DDD/2.0_Analysis/L6/6.0_index/">
       
       
       <link rel="icon" href="../../../../../../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>Modular Programming - BGE and Senior Phase Computing Science</title>
+        <title>Design - BGE and Senior Phase Computing Science</title>
       
     
     
@@ -92,7 +96,16 @@
     
     
     
-  </head>
+   <link href="../../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -111,7 +124,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modular-programming" class="md-skip">
+        <a href="#design" class="md-skip">
           Skip to content
         </a>
       
@@ -147,7 +160,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Modular Programming
+              Design
             
           </span>
         </div>
@@ -184,43 +197,6 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -331,10 +307,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../../../../../Homepages/6.0_L6_Home/" class="md-tabs__link">
           
   
@@ -384,6 +362,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -1912,8 +1892,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -1923,20 +1905,25 @@
       
         
       
-    
-    
-      
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1947,7 +1934,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Higher Computing Science
@@ -1979,8 +1966,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -1988,17 +1977,19 @@
       
         
       
+        
+      
     
     
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" checked>
         
           
           <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
@@ -2012,7 +2003,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
             Unit 1 - Software Design and Development
@@ -2048,6 +2039,156 @@
   
     <li class="md-nav__item">
       <a href="../../../2.0_Analysis/L6/6.0_index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#modular-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modular Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recognised-design-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recognised Design Techniques
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Unit 3 - Database Design and Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Unit 3 - Database Design and Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Unit_3_DDD/2.0_Analysis/L6/6.0_index/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2108,6 +2249,8 @@
       
         
       
+        
+      
     
     
       
@@ -2118,10 +2261,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
         
           
-          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2132,8 +2275,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
             Higher Hidden Tabs
           </label>
@@ -2151,6 +2294,27 @@
   
   <span class="md-ellipsis">
     Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.1_Structure_Diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Structure Diagrams
   </span>
   
 
@@ -2785,7 +2949,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -2796,6 +2962,32 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#modular-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modular Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recognised-design-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recognised Design Techniques
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2810,20 +3002,97 @@
                   
 
 
-<h1 id="modular-programming">Modular Programming</h1>
-<p>For Higher, your programs will be broken down into modules. These are smaller chunks of program that do a particular thing. </p>
-<p>The program has a main algorithm and lots of modules (also called sub-programs). Modules are generally self-contained. Data can be passed into them and back out, this is called the <code>data flow</code>.</p>
-<p><mark>Each step in the algorithm is usually broken down into a module.</mark></p>
-<p>Consider the following structure diagram for a program to find and display the most-downloaded song on an online streaming platform:</p>
-<figure>
-  <img alt="Modular Programming Example" src="../Images/SD01-Modular-Programming.png" width="650" />
-</figure>
-<p>The main steps of the algorithm are laid out and each step could be implemented as a module.</p>
-<p>Data from one step could flow in or out (<code>this is called the data flow</code>) and would be passed to the next module.</p>
-<p>Modular programming is useful because it allows different programmers to work on each module and further supports an agile approach to development as the task is broken down into smaller chunks that can be developed and tested independently before the modules are tested as a wwhole program.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>When we write modules, it’s a good idea to use local variables due to a local variable being a variable that can only used inside one module and cant be changed by other parts of the program and thus, helps prevent mistakes.</p>
+<h1 id="design">Design</h1>
+<div class="admonition info">
+<p class="admonition-title">What You Need to Know</p>
+<p><strong>You must be able to</strong>:</p>
+<ul>
+<li>Identify appropriate <strong>data types and structures</strong> required to solve a problem.</li>
+<li>Read, interpret, and implement <strong>design solutions</strong> using the following recognised design techniques:<ul>
+<li><strong>Structure diagrams</strong> (including top-level design, refinements, and data flow)</li>
+<li><strong>Pseudocode</strong></li>
+</ul>
+</li>
+<li>Use a recognised technique to design an <strong>efficient solution</strong> to a problem.</li>
+<li>Describe and design <strong>user interfaces</strong> using wireframes to show input, output, and layout clearly.</li>
+</ul>
+</div>
+<p>Effective problem-solving at Higher level begins with careful planning and selecting the right design techniques to produce efficient, modular, and maintainable code.</p>
+<h2 id="modular-design">Modular Design</h2>
+<dl>
+<dt>At Higher level, you use a modular approach to break complex problems into smaller, manageable parts.</dt>
+<dd>
+<p><strong>Top Down Design</strong></p>
+<ul>
+<li>Start with the complete problem</li>
+<li>Break it into high-level tasks</li>
+<li>Each task becomes a module</li>
+<li>These modules are refined further using <strong>stepwise refinement</strong></li>
+</ul>
+<p>Top-down design helps you plan a solution before coding begins.</p>
+<p><strong>Top Level Design</strong></p>
+<p>The top level shows the main steps of your program.</p>
+<ul>
+<li>It identifies the main components that will be refined into smaller tasks.</li>
+</ul>
+<p><strong>Stepwise Refinement</strong></p>
+<p>This is the process of breaking each module into smaller sub-tasks.</p>
+<ul>
+<li>Keep breaking each task down until it’s simple enough to implement</li>
+<li>Each refinement should do just one job</li>
+<li>This is reflected by designing each module in increasing detail, until it’s ready to be implemented.</li>
+</ul>
+<p><strong>Refinements</strong></p>
+<p>Refinements are the smaller sub-tasks created by applying stepwise refinement.</p>
+<ul>
+<li>Each one is a sub-task that contributes to solving the overall problem</li>
+<li>You continue refining until each task is simple enough to implement directly in code.</li>
+</ul>
+<p><strong>Data Flow</strong></p>
+<p>Data flow shows how information moves between modules.</p>
+<ul>
+<li>This can be represented visually by showing which data is passed between modules</li>
+<li>Inputs and outputs must be labelled</li>
+<li>This helps you understand how modules work together</li>
+</ul>
+</dd>
+</dl>
+<p>Once a modular design has been created, a recognised design technique can be used to represent and refine it.</p>
+<h2 id="recognised-design-techniques">Recognised Design Techniques</h2>
+<p>To plan and understand solutions, the following techniques are used:</p>
+<ul>
+<li>
+<p><strong>Structure diagrams</strong> show the hierarchical breakdown of a program into modules. They help visualise top-level design, refinement, and the flow of data between components.</p>
+</li>
+<li>
+<p><strong>Pseudocode</strong> expresses a solution using structured, language-agnostic steps. It allows you to refine algorithms in plain, logical terms before coding.</p>
+</li>
+</ul>
+<p>In addition, <strong>user interface design</strong> (via wireframes) outlines how input and output are managed. Wireframes use annotated sketches or mockups to show how users interact with a system.</p>
+<blockquote>
+<p><strong>Choose a section below to explore each of the Design Techniques in more detail.</strong></p>
+</blockquote>
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16v-3c0-1.11-.89-2-2-2h-6V8h2V2H9v6h2v3H5c-1.11 0-2 .89-2 2v3H1v6h6v-6H5v-3h6v3H9v6h6v-6h-2v-3h6v3h-2v6h6v-6zM11 4h2v2h-2zM5 20H3v-2h2zm8 0h-2v-2h2zm8 0h-2v-2h2z"/></svg></span> <strong>Structure Diagrams</strong></p>
+<hr />
+<p>Discover how structure diagrams break a system into smaller parts using top-down design, stepwise refinement, and data flow between modules.</p>
+<p><a href="../6.1_Structure_Diagrams/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Go to Structure Diagram Notes</a></p>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06m-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.75.75 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0"/></svg></span> <strong>Pseudocode</strong></p>
+<hr />
+<p>Learn how pseudocode outlines the steps in a solution using clear, structured logic to plan and refine algorithms before they are implemented.</p>
+<p><a href="#"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Go to Pseudocode Notes</a></p>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2"/></svg></span> <strong>Wireframes</strong></p>
+<hr />
+<p>Explore how wireframes help design user interfaces by showing how input, output, and layout are organised for effective user interaction.</p>
+<p><a href="#"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Go to Wireframe Notes</a></p>
+</li>
+</ul>
 </div>
 
 
@@ -2832,8 +3101,13 @@
 
 
 
+  
+  
 
 
+
+
+  
 
 
 
@@ -2889,5 +3163,7 @@
         <script src="../../../../../../scripts/extra.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
