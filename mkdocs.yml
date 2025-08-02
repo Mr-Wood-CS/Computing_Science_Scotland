@@ -89,9 +89,13 @@ nav:
         - Software Implementation: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.0_index.md'
       - Hidden Tabs:
         - Feasability Studies: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1_Feasability_Studies.md'
+        - Project Planning: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6_Project_Planning.md'
+        - UML - Use Case Diagrams : 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.7_UCD.md'
         - Economic: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.1_Economic.md'
         - Time: 'Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.2_Time.md'
         - 2d Arrays: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.1_2d_Arrays.md'
+        - Objects: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.4_OOP_Object.md'
+        - Objects: 'Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.4_OOP_Object.md'
 
 markdown_extensions:
       - admonition
